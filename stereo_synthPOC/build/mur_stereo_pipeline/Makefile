@@ -67,10 +67,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/mur_stereo_pipeline
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -156,9 +156,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles /workspace/stereo_synthPOC/build/mur_stereo_pipeline//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1572,7 +1572,7 @@ opencv2/viz/viz3d.hpp
 opencv2/viz/types.hpp
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/cv_bridge.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h
 -
 sensor_msgs/CompressedImage.h
@@ -1590,15 +1590,15 @@ opencv2/imgproc/types_c.h
 stdexcept
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/rgb_colors.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/rgb_colors.h
 opencv2/opencv.hpp
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/core/scoped_enum.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/core/scoped_enum.hpp
 boost/config.hpp
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/endian/conversion.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/endian/conversion.hpp
 boost/config.hpp
 -
 boost/predef/detail/endian_compat.h
@@ -1616,29 +1616,29 @@ algorithm
 cstring
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/endian/detail/intrinsic.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/endian/detail/intrinsic.hpp
 byteswap.h
 -
 cstdlib
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/detail/_cassert.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/detail/_cassert.h
 cassert
 -
 assert.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/detail/endian_compat.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/detail/endian_compat.h
 boost/predef/other/endian.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/detail/test.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/detail/test.h
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/library/c/_prefix.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/library/c/_prefix.h
 boost/predef/detail/_cassert.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/library/c/gnu.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/library/c/gnu.h
 boost/predef/version_number.h
 -
 boost/predef/make.h
@@ -1652,11 +1652,11 @@ cstddef
 boost/predef/detail/test.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/make.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/make.h
 boost/predef/detail/test.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/android.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/android.h
 boost/predef/version_number.h
 -
 boost/predef/make.h
@@ -1666,7 +1666,7 @@ boost/predef/detail/os_detected.h
 boost/predef/detail/test.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/bsd.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/bsd.h
 boost/predef/os/macos.h
 -
 boost/predef/version_number.h
@@ -1700,7 +1700,7 @@ boost/predef/os/bsd/net.h
 boost/predef/detail/test.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/bsd/bsdi.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/bsd/bsdi.h
 boost/predef/os/bsd.h
 -
 boost/predef/detail/os_detected.h
@@ -1708,7 +1708,7 @@ boost/predef/detail/os_detected.h
 boost/predef/detail/test.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/bsd/dragonfly.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/bsd/dragonfly.h
 boost/predef/os/bsd.h
 -
 boost/predef/detail/os_detected.h
@@ -1716,7 +1716,7 @@ boost/predef/detail/os_detected.h
 boost/predef/detail/test.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/bsd/free.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/bsd/free.h
 boost/predef/os/bsd.h
 -
 boost/predef/detail/os_detected.h
@@ -1724,7 +1724,7 @@ boost/predef/detail/os_detected.h
 boost/predef/detail/test.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/bsd/net.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/bsd/net.h
 boost/predef/os/bsd.h
 -
 boost/predef/detail/os_detected.h
@@ -1732,7 +1732,7 @@ boost/predef/detail/os_detected.h
 boost/predef/detail/test.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/bsd/open.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/bsd/open.h
 boost/predef/os/bsd.h
 -
 boost/predef/detail/os_detected.h
@@ -1740,7 +1740,7 @@ boost/predef/detail/os_detected.h
 boost/predef/detail/test.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/ios.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/ios.h
 boost/predef/version_number.h
 -
 boost/predef/make.h
@@ -1750,7 +1750,7 @@ boost/predef/detail/os_detected.h
 boost/predef/detail/test.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/macos.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/os/macos.h
 boost/predef/os/ios.h
 -
 boost/predef/version_number.h
@@ -1762,7 +1762,7 @@ boost/predef/detail/os_detected.h
 boost/predef/detail/test.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/other/endian.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/other/endian.h
 boost/predef/version_number.h
 -
 boost/predef/make.h
@@ -1796,11 +1796,11 @@ boost/predef/detail/test.h
 boost/predef/detail/test.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/version_number.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/predef/version_number.h
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/cv_bridge.cpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/cv_bridge.cpp
 boost/endian/conversion.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/endian/conversion.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/boost/endian/conversion.hpp
 map
 -
 boost/make_shared.hpp
@@ -1818,9 +1818,9 @@ cv_bridge/cv_bridge.h
 cv_bridge/rgb_colors.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/rgb_colors.cpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/rgb_colors.cpp
 cv_bridge/rgb_colors.h
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/cv_bridge/rgb_colors.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/cv_bridge/rgb_colors.h
 opencv2/core/core.hpp
 -
 

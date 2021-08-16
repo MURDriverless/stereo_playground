@@ -1,4 +1,4 @@
-prefix=/workspace/stereo_synthPOC/install
+prefix=/workspace/stereo_playground/stereo_synthPOC/install
 
 Name: cv_bridge
 Description: Description of cv_bridge

@@ -62,10 +62,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/mur_stereo_pipeline
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline
 
 # Utility rule file for doxygen.
 
@@ -86,6 +86,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /workspace/stereo_synthPOC/build/mur_stereo_pipeline && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline /workspace/stereo_synthPOC/build/mur_stereo_pipeline /workspace/stereo_synthPOC/build/mur_stereo_pipeline /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

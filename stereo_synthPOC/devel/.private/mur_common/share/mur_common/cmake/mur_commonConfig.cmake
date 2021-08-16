@@ -67,14 +67,14 @@ set(mur_common_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(mur_common_SOURCE_PREFIX /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_common)
-  set(mur_common_DEVEL_PREFIX /workspace/stereo_synthPOC/devel/.private/mur_common)
+  set(mur_common_SOURCE_PREFIX /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_common)
+  set(mur_common_DEVEL_PREFIX /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common)
   set(mur_common_INSTALL_PREFIX "")
   set(mur_common_PREFIX ${mur_common_DEVEL_PREFIX})
 else()
   set(mur_common_SOURCE_PREFIX "")
   set(mur_common_DEVEL_PREFIX "")
-  set(mur_common_INSTALL_PREFIX /workspace/stereo_synthPOC/install)
+  set(mur_common_INSTALL_PREFIX /workspace/stereo_playground/stereo_synthPOC/install)
   set(mur_common_PREFIX ${mur_common_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(mur_common_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/workspace/stereo_synthPOC/devel/.private/mur_common/include " STREQUAL " ")
+if(NOT "/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/include " STREQUAL " ")
   set(mur_common_INCLUDE_DIRS "")
-  set(_include_dirs "/workspace/stereo_synthPOC/devel/.private/mur_common/include")
+  set(_include_dirs "/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/workspace/stereo_synthPOC/devel/.private/mur_common/include " STREQUAL 
         message(FATAL_ERROR "Project 'mur_common' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'mur_common' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_common/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'mur_common' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_common/${idir}'.  ${_report}")
     endif()
     _list_append_unique(mur_common_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /workspace/stereo_synthPOC/devel/.private/mur_common/lib;/workspace/stereo_synthPOC/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/lib;/workspace/stereo_playground/stereo_synthPOC/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

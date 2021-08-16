@@ -1,8 +1,8 @@
-prefix=/workspace/stereo_synthPOC/devel/.private/mur_common
+prefix=/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common
 
 Name: mur_common
 Description: Description of mur_common
 Version: 0.0.1
-Cflags: -I/workspace/stereo_synthPOC/devel/.private/mur_common/include
+Cflags: -I/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/include
 Libs: -L${prefix}/lib 
 Requires: roscpp rospy std_msgs message_runtime

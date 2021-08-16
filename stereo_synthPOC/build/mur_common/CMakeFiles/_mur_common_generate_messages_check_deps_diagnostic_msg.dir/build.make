@@ -62,10 +62,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_common
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/mur_common
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/mur_common
 
 # Utility rule file for _mur_common_generate_messages_check_deps_diagnostic_msg.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/mur_common
 include CMakeFiles/_mur_common_generate_messages_check_deps_diagnostic_msg.dir/progress.make
 
 CMakeFiles/_mur_common_generate_messages_check_deps_diagnostic_msg:
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mur_common /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_common/msg/diagnostic_msg.msg std_msgs/Header
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mur_common /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_common/msg/diagnostic_msg.msg std_msgs/Header
 
 _mur_common_generate_messages_check_deps_diagnostic_msg: CMakeFiles/_mur_common_generate_messages_check_deps_diagnostic_msg
 _mur_common_generate_messages_check_deps_diagnostic_msg: CMakeFiles/_mur_common_generate_messages_check_deps_diagnostic_msg.dir/build.make
@@ -90,6 +90,6 @@ CMakeFiles/_mur_common_generate_messages_check_deps_diagnostic_msg.dir/clean:
 .PHONY : CMakeFiles/_mur_common_generate_messages_check_deps_diagnostic_msg.dir/clean
 
 CMakeFiles/_mur_common_generate_messages_check_deps_diagnostic_msg.dir/depend:
-	cd /workspace/stereo_synthPOC/build/mur_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_common /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_common /workspace/stereo_synthPOC/build/mur_common /workspace/stereo_synthPOC/build/mur_common /workspace/stereo_synthPOC/build/mur_common/CMakeFiles/_mur_common_generate_messages_check_deps_diagnostic_msg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/stereo_playground/stereo_synthPOC/build/mur_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_common /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_common /workspace/stereo_playground/stereo_synthPOC/build/mur_common /workspace/stereo_playground/stereo_synthPOC/build/mur_common /workspace/stereo_playground/stereo_synthPOC/build/mur_common/CMakeFiles/_mur_common_generate_messages_check_deps_diagnostic_msg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_mur_common_generate_messages_check_deps_diagnostic_msg.dir/depend
 

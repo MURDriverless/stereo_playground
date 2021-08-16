@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/workspace/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup/lib/mur_stereo_rosbag_matchup/mur_stereo_rosbag_matchup"
-  "/workspace/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup/lib/mur_stereo_rosbag_matchup/mur_stereo_rosbag_matchup.pdb"
+  "/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup/lib/mur_stereo_rosbag_matchup/mur_stereo_rosbag_matchup"
+  "/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup/lib/mur_stereo_rosbag_matchup/mur_stereo_rosbag_matchup.pdb"
   "CMakeFiles/mur_stereo_rosbag_matchup.dir/src/GeniWrap.cpp.o"
   "CMakeFiles/mur_stereo_rosbag_matchup.dir/src/main.cpp.o"
 )

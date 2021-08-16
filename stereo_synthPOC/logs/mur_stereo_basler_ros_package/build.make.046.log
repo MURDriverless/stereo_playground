@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target mur_stereo_basler_ros_package[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mur_stereo_basler_ros_package.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/mur_stereo_basler_ros_package.dir/src/GeniWrap.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_basler_ros_package/lib/mur_stereo_basler_ros_package/mur_stereo_basler_ros_package[0m
+[100%] Built target mur_stereo_basler_ros_package

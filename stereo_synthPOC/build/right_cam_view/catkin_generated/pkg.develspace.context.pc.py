@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "right_cam_view"
-PROJECT_SPACE_DIR = "/workspace/stereo_synthPOC/devel/.private/right_cam_view"
+PROJECT_SPACE_DIR = "/workspace/stereo_playground/stereo_synthPOC/devel/.private/right_cam_view"
 PROJECT_VERSION = "1.0.0"

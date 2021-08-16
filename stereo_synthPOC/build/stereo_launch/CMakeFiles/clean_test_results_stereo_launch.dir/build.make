@@ -62,10 +62,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/stereo_launch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/stereo_launch
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch
 
 # Utility rule file for clean_test_results_stereo_launch.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/stereo_launch
 include CMakeFiles/clean_test_results_stereo_launch.dir/progress.make
 
 CMakeFiles/clean_test_results_stereo_launch:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /workspace/stereo_synthPOC/build/stereo_launch/test_results/stereo_launch
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch/test_results/stereo_launch
 
 clean_test_results_stereo_launch: CMakeFiles/clean_test_results_stereo_launch
 clean_test_results_stereo_launch: CMakeFiles/clean_test_results_stereo_launch.dir/build.make
@@ -90,6 +90,6 @@ CMakeFiles/clean_test_results_stereo_launch.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_stereo_launch.dir/clean
 
 CMakeFiles/clean_test_results_stereo_launch.dir/depend:
-	cd /workspace/stereo_synthPOC/build/stereo_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch /workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch /workspace/stereo_synthPOC/build/stereo_launch /workspace/stereo_synthPOC/build/stereo_launch /workspace/stereo_synthPOC/build/stereo_launch/CMakeFiles/clean_test_results_stereo_launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/stereo_launch /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/stereo_launch /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch/CMakeFiles/clean_test_results_stereo_launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_stereo_launch.dir/depend
 

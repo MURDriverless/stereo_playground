@@ -1,0 +1,18 @@
+Warning: Cannot symlink from /workspace/stereo_playground/stereo_synthPOC/devel/.private/right_cam_view/share/right_cam_view/cmake/right_cam_viewConfig.cmake to existing file /workspace/stereo_playground/stereo_synthPOC/devel/share/right_cam_view/cmake/right_cam_viewConfig.cmake
+Warning: Source hash: 5054803a9128d305579e4d3d1a946f44
+Warning: Dest hash: c2042608c0d2cc7ea382b2a2419c7766
+Warning: Cannot symlink from /workspace/stereo_playground/stereo_synthPOC/devel/.private/right_cam_view/lib/right_cam_view/right_cam_view to existing file /workspace/stereo_playground/stereo_synthPOC/devel/lib/right_cam_view/right_cam_view
+Warning: Source hash: 115ea1399fc36fbc582565980d8c1461
+Warning: Dest hash: bb01829914bc9886d66c06ac89ea819d
+Warning: Cannot symlink from /workspace/stereo_playground/stereo_synthPOC/devel/.private/right_cam_view/lib/pkgconfig/right_cam_view.pc to existing file /workspace/stereo_playground/stereo_synthPOC/devel/lib/pkgconfig/right_cam_view.pc
+Warning: Source hash: b367efe37da307cded59b468c98e6d9b
+Warning: Dest hash: f6dd3789082c5e69243a929d26a6ceb7
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/right_cam_view/cmake.lock, /workspace/stereo_synthPOC/devel/./cmake.lock)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/right_cam_view/share/right_cam_view/cmake/right_cam_viewConfig.cmake, /workspace/stereo_synthPOC/devel/share/right_cam_view/cmake/right_cam_viewConfig.cmake)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/right_cam_view/share/right_cam_view/cmake/right_cam_viewConfig-version.cmake, /workspace/stereo_synthPOC/devel/share/right_cam_view/cmake/right_cam_viewConfig-version.cmake)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/right_cam_view/lib/right_cam_view/right_cam_view, /workspace/stereo_synthPOC/devel/lib/right_cam_view/right_cam_view)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/right_cam_view/lib/pkgconfig/right_cam_view.pc, /workspace/stereo_synthPOC/devel/lib/pkgconfig/right_cam_view.pc)
+Unlinking: /workspace/stereo_synthPOC/devel/share/right_cam_view/cmake/right_cam_viewConfig.cmake
+Unlinking: /workspace/stereo_synthPOC/devel/share/right_cam_view/cmake/right_cam_viewConfig-version.cmake
+Unlinking: /workspace/stereo_synthPOC/devel/lib/right_cam_view/right_cam_view
+Unlinking: /workspace/stereo_synthPOC/devel/lib/pkgconfig/right_cam_view.pc

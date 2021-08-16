@@ -138,13 +138,13 @@ CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /usr/loc
 CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /usr/local/include/opencv4/opencv2/viz/widgets.hpp
 CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /usr/local/include/opencv4/opencv2/xfeatures2d.hpp
 CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /usr/local/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical/ClassicalStereo.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeColorID.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeEst.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeROI.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/PreviewArgs.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/StereoBench.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Classical/ClassicalStereo.cpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical/ClassicalStereo.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeColorID.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeEst.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeROI.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/PreviewArgs.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/StereoBench.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Classical/ClassicalStereo.cpp
 
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp
@@ -281,15 +281,15 @@ CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /usr/local/inc
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /usr/local/include/opencv4/opencv2/viz/viz3d.hpp
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /usr/local/include/opencv4/opencv2/viz/vizcore.hpp
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /usr/local/include/opencv4/opencv2/viz/widgets.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Detectors.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/EntropyCalibrator.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/KeypointDetector.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeColorID.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeROI.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/PreviewArgs.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/StereoBench.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/Detectors.cpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Detectors.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/EntropyCalibrator.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/KeypointDetector.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeColorID.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeROI.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/PreviewArgs.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/StereoBench.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/Detectors.cpp
 
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/EntropyCalibrator.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/EntropyCalibrator.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp
@@ -426,9 +426,9 @@ CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/EntropyCalibrator.cpp.o: /usr/l
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/EntropyCalibrator.cpp.o: /usr/local/include/opencv4/opencv2/viz/viz3d.hpp
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/EntropyCalibrator.cpp.o: /usr/local/include/opencv4/opencv2/viz/vizcore.hpp
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/EntropyCalibrator.cpp.o: /usr/local/include/opencv4/opencv2/viz/widgets.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/EntropyCalibrator.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/EntropyCalibrator.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/EntropyCalibrator.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/EntropyCalibrator.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/EntropyCalibrator.cpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/EntropyCalibrator.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/EntropyCalibrator.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/EntropyCalibrator.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/EntropyCalibrator.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/EntropyCalibrator.cpp
 
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /usr/local/cuda/include/crt/host_defines.h
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /usr/local/cuda/include/cuComplex.h
@@ -574,10 +574,10 @@ CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /usr/lo
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /usr/local/include/opencv4/opencv2/viz/viz3d.hpp
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /usr/local/include/opencv4/opencv2/viz/vizcore.hpp
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /usr/local/include/opencv4/opencv2/viz/widgets.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/EntropyCalibrator.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/KeypointDetector.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/KeypointDetector.cpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/EntropyCalibrator.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/KeypointDetector.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/KeypointDetector.cpp
 
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Utils.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Utils.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp
@@ -714,10 +714,10 @@ CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Utils.cpp.o: /usr/local/include
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Utils.cpp.o: /usr/local/include/opencv4/opencv2/viz/viz3d.hpp
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Utils.cpp.o: /usr/local/include/opencv4/opencv2/viz/vizcore.hpp
 CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Utils.cpp.o: /usr/local/include/opencv4/opencv2/viz/widgets.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Utils.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/EntropyCalibrator.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Utils.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Utils.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/Utils.cpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Utils.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/EntropyCalibrator.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Utils.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Utils.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/Utils.cpp
 
-CMakeFiles/mur_stereo_pipeline.dir/src/StereoCommon/StereoBench.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/StereoBench.hpp
-CMakeFiles/mur_stereo_pipeline.dir/src/StereoCommon/StereoBench.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/StereoCommon/StereoBench.cpp
+CMakeFiles/mur_stereo_pipeline.dir/src/StereoCommon/StereoBench.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/StereoBench.hpp
+CMakeFiles/mur_stereo_pipeline.dir/src/StereoCommon/StereoBench.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/StereoCommon/StereoBench.cpp
 

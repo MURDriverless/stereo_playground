@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_ros/src/mur_stereo_ros_node.cpp" "/workspace/stereo_synthPOC/build/mur_stereo_ros/CMakeFiles/mur_stereo_ros_node.dir/src/mur_stereo_ros_node.cpp.o"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_ros/src/mur_stereo_ros_node.cpp" "/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_ros/CMakeFiles/mur_stereo_ros_node.dir/src/mur_stereo_ros_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,18 +13,18 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
   "ROS_PACKAGE_NAME=\"mur_stereo_ros\""
-  "SRC_ROOT_PATH=\"/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_ros/\""
+  "SRC_ROOT_PATH=\"/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_ros/\""
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/workspace/stereo_synthPOC/devel/.private/mur_common/include"
+  "/opt/ros/melodic/include"
+  "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include"
   "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical"
   "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors"
   "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon"
-  "/opt/ros/melodic/include"
-  "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/workspace/stereo_synthPOC/devel/.private/mur_common/include"
   "/usr/local/cuda/include"
   "/usr/local/include/opencv4"
   )

@@ -1,8 +1,8 @@
-# Install script for directory: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/python
+# Install script for directory: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspace/stereo_synthPOC/install")
+  set(CMAKE_INSTALL_PREFIX "/workspace/stereo_playground/stereo_synthPOC/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,6 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/cv_bridge/boost" TYPE FILE FILES "/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/cv_bridge/boost" TYPE FILE FILES "/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/__init__.py")
 endif()
 

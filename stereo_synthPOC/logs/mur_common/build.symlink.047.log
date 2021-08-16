@@ -1,0 +1,97 @@
+Warning: Cannot symlink from /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/share/mur_common/cmake/mur_common-msg-extras.cmake to existing file /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_common/cmake/mur_common-msg-extras.cmake
+Warning: Source hash: 7d5c65117b52fb29050a62fc2e7a8b94
+Warning: Dest hash: 49aaa99b5c64f95f49082027eb14655d
+Warning: Cannot symlink from /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/share/mur_common/cmake/mur_common-msg-paths.cmake to existing file /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_common/cmake/mur_common-msg-paths.cmake
+Warning: Source hash: 0802690f7c85b4019e5bd3ea40491cac
+Warning: Dest hash: 4fc2cc419d10b113f76c182bb5ea9197
+Warning: Cannot symlink from /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/share/mur_common/cmake/mur_commonConfig.cmake to existing file /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_common/cmake/mur_commonConfig.cmake
+Warning: Source hash: 0cca3d43506c8e2c0b072f287cae2c44
+Warning: Dest hash: ff5b4730faac80256f9066c3f0b13603
+Warning: Cannot symlink from /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/lib/pkgconfig/mur_common.pc to existing file /workspace/stereo_playground/stereo_synthPOC/devel/lib/pkgconfig/mur_common.pc
+Warning: Source hash: 947a495e7dc703b8ab712a4fceffcda4
+Warning: Dest hash: d410f566a63fe718fd883d04abf3c2d8
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/cmake.lock, /workspace/stereo_synthPOC/devel/./cmake.lock)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/gennodejs/ros/mur_common/_index.js, /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/_index.js)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/gennodejs/ros/mur_common/msg/_index.js, /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/msg/_index.js)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/gennodejs/ros/mur_common/msg/timing_msg.js, /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/msg/timing_msg.js)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/gennodejs/ros/mur_common/msg/path_msg.js, /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/msg/path_msg.js)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/gennodejs/ros/mur_common/msg/actuation_msg.js, /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/msg/actuation_msg.js)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/gennodejs/ros/mur_common/msg/cone_msg.js, /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/msg/cone_msg.js)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/gennodejs/ros/mur_common/msg/diagnostic_msg.js, /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/msg/diagnostic_msg.js)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/roseus/ros/mur_common/manifest.l, /workspace/stereo_synthPOC/devel/share/roseus/ros/mur_common/manifest.l)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/roseus/ros/mur_common/msg/actuation_msg.l, /workspace/stereo_synthPOC/devel/share/roseus/ros/mur_common/msg/actuation_msg.l)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/roseus/ros/mur_common/msg/cone_msg.l, /workspace/stereo_synthPOC/devel/share/roseus/ros/mur_common/msg/cone_msg.l)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/roseus/ros/mur_common/msg/path_msg.l, /workspace/stereo_synthPOC/devel/share/roseus/ros/mur_common/msg/path_msg.l)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/roseus/ros/mur_common/msg/diagnostic_msg.l, /workspace/stereo_synthPOC/devel/share/roseus/ros/mur_common/msg/diagnostic_msg.l)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/roseus/ros/mur_common/msg/timing_msg.l, /workspace/stereo_synthPOC/devel/share/roseus/ros/mur_common/msg/timing_msg.l)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/_package_timing_msg.lisp, /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package_timing_msg.lisp)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/_package_path_msg.lisp, /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package_path_msg.lisp)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/_package_actuation_msg.lisp, /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package_actuation_msg.lisp)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/mur_common-msg.asd, /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/mur_common-msg.asd)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/actuation_msg.lisp, /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/actuation_msg.lisp)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/_package.lisp, /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package.lisp)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/_package_cone_msg.lisp, /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package_cone_msg.lisp)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/_package_diagnostic_msg.lisp, /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package_diagnostic_msg.lisp)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/timing_msg.lisp, /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/timing_msg.lisp)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/cone_msg.lisp, /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/cone_msg.lisp)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/diagnostic_msg.lisp, /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/diagnostic_msg.lisp)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/path_msg.lisp, /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/path_msg.lisp)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/mur_common/cmake/mur_common-msg-extras.cmake, /workspace/stereo_synthPOC/devel/share/mur_common/cmake/mur_common-msg-extras.cmake)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/mur_common/cmake/mur_commonConfig-version.cmake, /workspace/stereo_synthPOC/devel/share/mur_common/cmake/mur_commonConfig-version.cmake)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/mur_common/cmake/mur_common-msg-paths.cmake, /workspace/stereo_synthPOC/devel/share/mur_common/cmake/mur_common-msg-paths.cmake)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/share/mur_common/cmake/mur_commonConfig.cmake, /workspace/stereo_synthPOC/devel/share/mur_common/cmake/mur_commonConfig.cmake)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/lib/python2.7/dist-packages/mur_common/__init__.py, /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/__init__.py)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/lib/python2.7/dist-packages/mur_common/msg/__init__.py, /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/msg/__init__.py)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/lib/python2.7/dist-packages/mur_common/msg/_path_msg.py, /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/msg/_path_msg.py)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/lib/python2.7/dist-packages/mur_common/msg/_actuation_msg.py, /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/msg/_actuation_msg.py)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/lib/python2.7/dist-packages/mur_common/msg/_diagnostic_msg.py, /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/msg/_diagnostic_msg.py)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/lib/python2.7/dist-packages/mur_common/msg/_cone_msg.py, /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/msg/_cone_msg.py)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/lib/python2.7/dist-packages/mur_common/msg/_timing_msg.py, /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/msg/_timing_msg.py)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/lib/pkgconfig/mur_common.pc, /workspace/stereo_synthPOC/devel/lib/pkgconfig/mur_common.pc)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/include/mur_common/diagnostic_msg.h, /workspace/stereo_synthPOC/devel/include/mur_common/diagnostic_msg.h)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/include/mur_common/cone_msg.h, /workspace/stereo_synthPOC/devel/include/mur_common/cone_msg.h)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/include/mur_common/actuation_msg.h, /workspace/stereo_synthPOC/devel/include/mur_common/actuation_msg.h)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/include/mur_common/timing_msg.h, /workspace/stereo_synthPOC/devel/include/mur_common/timing_msg.h)
+Cleaning: (/workspace/stereo_synthPOC/devel/.private/mur_common/include/mur_common/path_msg.h, /workspace/stereo_synthPOC/devel/include/mur_common/path_msg.h)
+Unlinking: /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/_index.js
+Unlinking: /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/msg/_index.js
+Unlinking: /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/msg/timing_msg.js
+Unlinking: /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/msg/path_msg.js
+Unlinking: /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/msg/actuation_msg.js
+Unlinking: /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/msg/cone_msg.js
+Unlinking: /workspace/stereo_synthPOC/devel/share/gennodejs/ros/mur_common/msg/diagnostic_msg.js
+Unlinking: /workspace/stereo_synthPOC/devel/share/roseus/ros/mur_common/manifest.l
+Unlinking: /workspace/stereo_synthPOC/devel/share/roseus/ros/mur_common/msg/actuation_msg.l
+Unlinking: /workspace/stereo_synthPOC/devel/share/roseus/ros/mur_common/msg/cone_msg.l
+Unlinking: /workspace/stereo_synthPOC/devel/share/roseus/ros/mur_common/msg/path_msg.l
+Unlinking: /workspace/stereo_synthPOC/devel/share/roseus/ros/mur_common/msg/diagnostic_msg.l
+Unlinking: /workspace/stereo_synthPOC/devel/share/roseus/ros/mur_common/msg/timing_msg.l
+Unlinking: /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package_timing_msg.lisp
+Unlinking: /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package_path_msg.lisp
+Unlinking: /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package_actuation_msg.lisp
+Unlinking: /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/mur_common-msg.asd
+Unlinking: /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/actuation_msg.lisp
+Unlinking: /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package.lisp
+Unlinking: /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package_cone_msg.lisp
+Unlinking: /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package_diagnostic_msg.lisp
+Unlinking: /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/timing_msg.lisp
+Unlinking: /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/cone_msg.lisp
+Unlinking: /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/diagnostic_msg.lisp
+Unlinking: /workspace/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/path_msg.lisp
+Unlinking: /workspace/stereo_synthPOC/devel/share/mur_common/cmake/mur_common-msg-extras.cmake
+Unlinking: /workspace/stereo_synthPOC/devel/share/mur_common/cmake/mur_commonConfig-version.cmake
+Unlinking: /workspace/stereo_synthPOC/devel/share/mur_common/cmake/mur_common-msg-paths.cmake
+Unlinking: /workspace/stereo_synthPOC/devel/share/mur_common/cmake/mur_commonConfig.cmake
+Unlinking: /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/__init__.py
+Unlinking: /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/msg/__init__.py
+Unlinking: /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/msg/_path_msg.py
+Unlinking: /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/msg/_actuation_msg.py
+Unlinking: /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/msg/_diagnostic_msg.py
+Unlinking: /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/msg/_cone_msg.py
+Unlinking: /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/msg/_timing_msg.py
+Unlinking: /workspace/stereo_synthPOC/devel/lib/pkgconfig/mur_common.pc
+Unlinking: /workspace/stereo_synthPOC/devel/include/mur_common/diagnostic_msg.h
+Unlinking: /workspace/stereo_synthPOC/devel/include/mur_common/cone_msg.h
+Unlinking: /workspace/stereo_synthPOC/devel/include/mur_common/actuation_msg.h
+Unlinking: /workspace/stereo_synthPOC/devel/include/mur_common/timing_msg.h
+Unlinking: /workspace/stereo_synthPOC/devel/include/mur_common/path_msg.h

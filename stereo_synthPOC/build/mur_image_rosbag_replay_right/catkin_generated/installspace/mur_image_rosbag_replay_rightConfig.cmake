@@ -67,14 +67,14 @@ set(mur_image_rosbag_replay_right_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(mur_image_rosbag_replay_right_SOURCE_PREFIX /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_replay_right/src/mur_stereo_basler)
-  set(mur_image_rosbag_replay_right_DEVEL_PREFIX /workspace/stereo_synthPOC/devel/.private/mur_image_rosbag_replay_right)
+  set(mur_image_rosbag_replay_right_SOURCE_PREFIX /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_replay_right/src/mur_stereo_basler)
+  set(mur_image_rosbag_replay_right_DEVEL_PREFIX /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_image_rosbag_replay_right)
   set(mur_image_rosbag_replay_right_INSTALL_PREFIX "")
   set(mur_image_rosbag_replay_right_PREFIX ${mur_image_rosbag_replay_right_DEVEL_PREFIX})
 else()
   set(mur_image_rosbag_replay_right_SOURCE_PREFIX "")
   set(mur_image_rosbag_replay_right_DEVEL_PREFIX "")
-  set(mur_image_rosbag_replay_right_INSTALL_PREFIX /workspace/stereo_synthPOC/install)
+  set(mur_image_rosbag_replay_right_INSTALL_PREFIX /workspace/stereo_playground/stereo_synthPOC/install)
   set(mur_image_rosbag_replay_right_PREFIX ${mur_image_rosbag_replay_right_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /workspace/stereo_synthPOC/install/lib;/workspace/stereo_synthPOC/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /workspace/stereo_playground/stereo_synthPOC/install/lib;/workspace/stereo_playground/stereo_synthPOC/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

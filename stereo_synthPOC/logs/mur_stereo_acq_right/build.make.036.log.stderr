@@ -1,0 +1,10 @@
+[01m[K/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/src/main.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/src/main.cpp:122:119:[m[K [01;31m[Kerror: [m[K'[01m[Kclass IGeniCam[m[K' has no member named '[01m[KgetExposureTime[m[K'
+           std::cout << "Camera RightFrame Rate is: " << camera1->getFrameRate() << ", Exposure Time is: " << camera1->[01;31m[KgetExposureTime[m[K(camera1->getNodeMap()) << std::endl;
+                                                                                                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/src/main.cpp:122:144:[m[K [01;31m[Kerror: [m[K'[01m[Kclass IGeniCam[m[K' has no member named '[01m[KgetNodeMap[m[K'
+           std::cout << "Camera RightFrame Rate is: " << camera1->getFrameRate() << ", Exposure Time is: " << camera1->getExposureTime(camera1->[01;31m[KgetNodeMap[m[K()) << std::endl;
+                                                                                                                                                [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mur_stereo_acq_right.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mur_stereo_acq_right.dir/all] Error 2
+make: *** [all] Error 2

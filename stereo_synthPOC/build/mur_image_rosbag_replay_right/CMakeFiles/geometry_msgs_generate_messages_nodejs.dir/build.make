@@ -62,10 +62,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_replay_right/src/mur_stereo_basler
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_replay_right/src/mur_stereo_basler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/mur_image_rosbag_replay_right
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/mur_image_rosbag_replay_right
 
 # Utility rule file for geometry_msgs_generate_messages_nodejs.
 
@@ -86,6 +86,6 @@ CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend:
-	cd /workspace/stereo_synthPOC/build/mur_image_rosbag_replay_right && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_replay_right/src/mur_stereo_basler /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_replay_right/src/mur_stereo_basler /workspace/stereo_synthPOC/build/mur_image_rosbag_replay_right /workspace/stereo_synthPOC/build/mur_image_rosbag_replay_right /workspace/stereo_synthPOC/build/mur_image_rosbag_replay_right/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/stereo_playground/stereo_synthPOC/build/mur_image_rosbag_replay_right && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_replay_right/src/mur_stereo_basler /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_replay_right/src/mur_stereo_basler /workspace/stereo_playground/stereo_synthPOC/build/mur_image_rosbag_replay_right /workspace/stereo_playground/stereo_synthPOC/build/mur_image_rosbag_replay_right /workspace/stereo_playground/stereo_synthPOC/build/mur_image_rosbag_replay_right/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
 

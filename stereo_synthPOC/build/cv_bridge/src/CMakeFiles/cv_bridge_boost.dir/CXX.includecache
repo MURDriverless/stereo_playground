@@ -2062,7 +2062,7 @@ opencv2/viz/viz3d.hpp
 opencv2/viz/types.hpp
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/cv_bridge.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h
 -
 sensor_msgs/CompressedImage.h
@@ -2080,11 +2080,11 @@ opencv2/imgproc/types_c.h
 stdexcept
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.cpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.cpp
 module.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.hpp
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.hpp
 iostream
 -
 boost/python.hpp
@@ -2098,15 +2098,15 @@ numpy/ndarrayobject.h
 opencv2/core/core.hpp
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module_opencv.cpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module_opencv.cpp
 module.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.hpp
 opencv2/core/types_c.h
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/opencv2/core/types_c.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/opencv2/core/types_c.h
 opencv2/opencv_modules.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/opencv2/opencv_modules.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/opencv2/opencv_modules.hpp
 pycompat.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/pycompat.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/pycompat.hpp
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/pycompat.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/pycompat.hpp
 

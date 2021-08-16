@@ -179,8 +179,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/installspace/_setup_util.py"
   "catkin_generated/package.cmake"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/CMakeLists.txt"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/package.xml"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/CMakeLists.txt"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/package.xml"
   )
 
 # The corresponding makefile is:
@@ -223,8 +223,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "catkin_generated/stamps/mur_stereo_pipeline/package.xml.stamp"
   "catkin_generated/pkg.develspace.context.pc.py"
   "catkin_generated/stamps/mur_stereo_pipeline/pkg.pc.em.stamp"
-  "/workspace/stereo_synthPOC/devel/.private/mur_stereo_pipeline/share/mur_stereo_pipeline/cmake/mur_stereo_pipelineConfig.cmake"
-  "/workspace/stereo_synthPOC/devel/.private/mur_stereo_pipeline/share/mur_stereo_pipeline/cmake/mur_stereo_pipelineConfig-version.cmake"
+  "/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_pipeline/share/mur_stereo_pipeline/cmake/mur_stereo_pipelineConfig.cmake"
+  "/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_pipeline/share/mur_stereo_pipeline/cmake/mur_stereo_pipelineConfig-version.cmake"
   "catkin_generated/pkg.installspace.context.pc.py"
   "catkin_generated/stamps/mur_stereo_pipeline/pkg.pc.em.stamp"
   "catkin_generated/installspace/mur_stereo_pipelineConfig.cmake"

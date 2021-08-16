@@ -67,10 +67,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/src/mur_stereo_basler
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/src/mur_stereo_basler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/mur_left_image_acq
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/mur_left_image_acq
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -156,14 +156,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /workspace/stereo_synthPOC/build/mur_left_image_acq && $(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_left_image_acq/CMakeFiles /workspace/stereo_synthPOC/build/mur_left_image_acq/gtest//CMakeFiles/progress.marks
-	cd /workspace/stereo_synthPOC/build/mur_left_image_acq && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_left_image_acq/CMakeFiles 0
+	cd /workspace/stereo_playground/stereo_synthPOC/build/mur_left_image_acq && $(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_left_image_acq/CMakeFiles /workspace/stereo_playground/stereo_synthPOC/build/mur_left_image_acq/gtest//CMakeFiles/progress.marks
+	cd /workspace/stereo_playground/stereo_synthPOC/build/mur_left_image_acq && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_left_image_acq/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /workspace/stereo_synthPOC/build/mur_left_image_acq && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/clean
+	cd /workspace/stereo_playground/stereo_synthPOC/build/mur_left_image_acq && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/clean
 .PHONY : clean
 
 # The main clean target
@@ -173,17 +173,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /workspace/stereo_synthPOC/build/mur_left_image_acq && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/preinstall
+	cd /workspace/stereo_playground/stereo_synthPOC/build/mur_left_image_acq && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /workspace/stereo_synthPOC/build/mur_left_image_acq && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/preinstall
+	cd /workspace/stereo_playground/stereo_synthPOC/build/mur_left_image_acq && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /workspace/stereo_synthPOC/build/mur_left_image_acq && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /workspace/stereo_playground/stereo_synthPOC/build/mur_left_image_acq && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -210,6 +210,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /workspace/stereo_synthPOC/build/mur_left_image_acq && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /workspace/stereo_playground/stereo_synthPOC/build/mur_left_image_acq && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

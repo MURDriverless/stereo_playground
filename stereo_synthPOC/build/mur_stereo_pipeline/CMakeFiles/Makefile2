@@ -63,10 +63,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/mur_stereo_pipeline
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -158,14 +158,14 @@ gtest/googlemock/gtest/clean: gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/c
 CMakeFiles/clean_test_results.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num= "Built target clean_test_results"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num= "Built target clean_test_results"
 .PHONY : CMakeFiles/clean_test_results.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 .PHONY : CMakeFiles/clean_test_results.dir/rule
 
 # Convenience name for target.
@@ -185,14 +185,14 @@ CMakeFiles/clean_test_results.dir/clean:
 CMakeFiles/run_tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num= "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num= "Built target run_tests"
 .PHONY : CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -212,14 +212,14 @@ CMakeFiles/run_tests.dir/clean:
 CMakeFiles/download_extra_data.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num= "Built target download_extra_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num= "Built target download_extra_data"
 .PHONY : CMakeFiles/download_extra_data.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/download_extra_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/download_extra_data.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 .PHONY : CMakeFiles/download_extra_data.dir/rule
 
 # Convenience name for target.
@@ -239,14 +239,14 @@ CMakeFiles/download_extra_data.dir/clean:
 CMakeFiles/tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num= "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num= "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -266,14 +266,14 @@ CMakeFiles/tests.dir/clean:
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num= "Built target doxygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num= "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 .PHONY : CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.
@@ -293,14 +293,14 @@ CMakeFiles/doxygen.dir/clean:
 CMakeFiles/_catkin_empty_exported_target.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_catkin_empty_exported_target.dir/build.make CMakeFiles/_catkin_empty_exported_target.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_catkin_empty_exported_target.dir/build.make CMakeFiles/_catkin_empty_exported_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_catkin_empty_exported_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -320,14 +320,14 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 CMakeFiles/mur_stereo_pipeline.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mur_stereo_pipeline.dir/build.make CMakeFiles/mur_stereo_pipeline.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mur_stereo_pipeline.dir/build.make CMakeFiles/mur_stereo_pipeline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num=12,13,14,15,16,17,18 "Built target mur_stereo_pipeline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num=12,13,14,15,16,17,18 "Built target mur_stereo_pipeline"
 .PHONY : CMakeFiles/mur_stereo_pipeline.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mur_stereo_pipeline.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mur_stereo_pipeline.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 .PHONY : CMakeFiles/mur_stereo_pipeline.dir/rule
 
 # Convenience name for target.
@@ -347,14 +347,14 @@ CMakeFiles/mur_stereo_pipeline.dir/clean:
 gtest/googlemock/CMakeFiles/gmock_main.dir/all:
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num=4,5,6,7 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num=4,5,6,7 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -374,14 +374,14 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all:
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num=1,2,3 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num=1,2,3 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -401,14 +401,14 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num=8,9 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num=8,9 "Built target gtest"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -428,14 +428,14 @@ gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean:
 gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num=10,11 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles --progress-num=10,11 "Built target gtest_main"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline/CMakeFiles 0
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.

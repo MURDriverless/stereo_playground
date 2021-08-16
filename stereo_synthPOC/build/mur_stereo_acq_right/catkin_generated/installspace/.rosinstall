@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /workspace/stereo_synthPOC/install/setup.sh
+    local-name: /workspace/stereo_playground/stereo_synthPOC/install/setup.sh

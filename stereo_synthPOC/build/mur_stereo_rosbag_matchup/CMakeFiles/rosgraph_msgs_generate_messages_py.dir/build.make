@@ -62,10 +62,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_matchup/src/mur_stereo_basler
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_matchup/src/mur_stereo_basler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/mur_stereo_rosbag_matchup
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_rosbag_matchup
 
 # Utility rule file for rosgraph_msgs_generate_messages_py.
 
@@ -86,6 +86,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend:
-	cd /workspace/stereo_synthPOC/build/mur_stereo_rosbag_matchup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_matchup/src/mur_stereo_basler /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_matchup/src/mur_stereo_basler /workspace/stereo_synthPOC/build/mur_stereo_rosbag_matchup /workspace/stereo_synthPOC/build/mur_stereo_rosbag_matchup /workspace/stereo_synthPOC/build/mur_stereo_rosbag_matchup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_rosbag_matchup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_matchup/src/mur_stereo_basler /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_matchup/src/mur_stereo_basler /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_rosbag_matchup /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_rosbag_matchup /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_rosbag_matchup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 

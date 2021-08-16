@@ -180,8 +180,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/installspace/_setup_util.py"
   "catkin_generated/package.cmake"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch/CMakeLists.txt"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch/package.xml"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/stereo_launch/CMakeLists.txt"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/stereo_launch/package.xml"
   )
 
 # The corresponding makefile is:
@@ -224,8 +224,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "catkin_generated/stamps/stereo_launch/package.xml.stamp"
   "catkin_generated/pkg.develspace.context.pc.py"
   "catkin_generated/stamps/stereo_launch/pkg.pc.em.stamp"
-  "/workspace/stereo_synthPOC/devel/.private/stereo_launch/share/stereo_launch/cmake/stereo_launchConfig.cmake"
-  "/workspace/stereo_synthPOC/devel/.private/stereo_launch/share/stereo_launch/cmake/stereo_launchConfig-version.cmake"
+  "/workspace/stereo_playground/stereo_synthPOC/devel/.private/stereo_launch/share/stereo_launch/cmake/stereo_launchConfig.cmake"
+  "/workspace/stereo_playground/stereo_synthPOC/devel/.private/stereo_launch/share/stereo_launch/cmake/stereo_launchConfig-version.cmake"
   "catkin_generated/pkg.installspace.context.pc.py"
   "catkin_generated/stamps/stereo_launch/pkg.pc.em.stamp"
   "catkin_generated/installspace/stereo_launchConfig.cmake"

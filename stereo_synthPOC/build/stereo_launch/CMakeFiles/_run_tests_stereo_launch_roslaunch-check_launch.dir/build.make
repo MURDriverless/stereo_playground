@@ -62,10 +62,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/stereo_launch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/stereo_launch
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch
 
 # Utility rule file for _run_tests_stereo_launch_roslaunch-check_launch.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/stereo_launch
 include CMakeFiles/_run_tests_stereo_launch_roslaunch-check_launch.dir/progress.make
 
 CMakeFiles/_run_tests_stereo_launch_roslaunch-check_launch:
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /workspace/stereo_synthPOC/build/stereo_launch/test_results/stereo_launch/roslaunch-check_launch.xml "/opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E make_directory /workspace/stereo_synthPOC/build/stereo_launch/test_results/stereo_launch" "/opt/ros/melodic/share/roslaunch/cmake/../scripts/roslaunch-check -o \"/workspace/stereo_synthPOC/build/stereo_launch/test_results/stereo_launch/roslaunch-check_launch.xml\" \"/workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch/launch\" "
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch/test_results/stereo_launch/roslaunch-check_launch.xml "/opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E make_directory /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch/test_results/stereo_launch" "/opt/ros/melodic/share/roslaunch/cmake/../scripts/roslaunch-check -o \"/workspace/stereo_playground/stereo_synthPOC/build/stereo_launch/test_results/stereo_launch/roslaunch-check_launch.xml\" \"/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/stereo_launch/launch\" "
 
 _run_tests_stereo_launch_roslaunch-check_launch: CMakeFiles/_run_tests_stereo_launch_roslaunch-check_launch
 _run_tests_stereo_launch_roslaunch-check_launch: CMakeFiles/_run_tests_stereo_launch_roslaunch-check_launch.dir/build.make
@@ -90,6 +90,6 @@ CMakeFiles/_run_tests_stereo_launch_roslaunch-check_launch.dir/clean:
 .PHONY : CMakeFiles/_run_tests_stereo_launch_roslaunch-check_launch.dir/clean
 
 CMakeFiles/_run_tests_stereo_launch_roslaunch-check_launch.dir/depend:
-	cd /workspace/stereo_synthPOC/build/stereo_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch /workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch /workspace/stereo_synthPOC/build/stereo_launch /workspace/stereo_synthPOC/build/stereo_launch /workspace/stereo_synthPOC/build/stereo_launch/CMakeFiles/_run_tests_stereo_launch_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/stereo_launch /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/stereo_launch /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch/CMakeFiles/_run_tests_stereo_launch_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_stereo_launch_roslaunch-check_launch.dir/depend
 

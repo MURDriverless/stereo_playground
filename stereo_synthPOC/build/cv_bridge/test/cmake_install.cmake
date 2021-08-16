@@ -1,8 +1,8 @@
-# Install script for directory: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test
+# Install script for directory: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspace/stereo_synthPOC/install")
+  set(CMAKE_INSTALL_PREFIX "/workspace/stereo_playground/stereo_synthPOC/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

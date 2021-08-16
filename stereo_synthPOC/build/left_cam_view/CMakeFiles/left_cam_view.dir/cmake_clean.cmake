@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/workspace/stereo_synthPOC/devel/.private/left_cam_view/lib/left_cam_view/left_cam_view"
-  "/workspace/stereo_synthPOC/devel/.private/left_cam_view/lib/left_cam_view/left_cam_view.pdb"
+  "/workspace/stereo_playground/stereo_synthPOC/devel/.private/left_cam_view/lib/left_cam_view/left_cam_view"
+  "/workspace/stereo_playground/stereo_synthPOC/devel/.private/left_cam_view/lib/left_cam_view/left_cam_view.pdb"
   "CMakeFiles/left_cam_view.dir/src/GeniWrap.cpp.o"
   "CMakeFiles/left_cam_view.dir/src/main.cpp.o"
 )

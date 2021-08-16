@@ -1,4 +1,4 @@
-prefix=/workspace/stereo_synthPOC/install
+prefix=/workspace/stereo_playground/stereo_synthPOC/install
 
 Name: left_cam_view
 Description: Description of left_cam_view

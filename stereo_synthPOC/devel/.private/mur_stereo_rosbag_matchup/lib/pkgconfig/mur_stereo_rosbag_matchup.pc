@@ -1,4 +1,4 @@
-prefix=/workspace/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup
+prefix=/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup
 
 Name: mur_stereo_rosbag_matchup
 Description: Description of mur_stereo_rosbag_matchup

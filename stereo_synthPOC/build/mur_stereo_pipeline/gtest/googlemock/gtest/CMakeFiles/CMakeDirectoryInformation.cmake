@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/workspace/stereo_synthPOC/build/mur_stereo_pipeline")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_pipeline")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

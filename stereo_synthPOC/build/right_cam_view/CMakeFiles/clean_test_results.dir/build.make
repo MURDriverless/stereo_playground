@@ -62,10 +62,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/right_cam_view/src/mur_stereo_basler
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/right_cam_view/src/mur_stereo_basler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/right_cam_view
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/right_cam_view
 
 # Utility rule file for clean_test_results.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/right_cam_view
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /workspace/stereo_synthPOC/build/right_cam_view/test_results
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /workspace/stereo_playground/stereo_synthPOC/build/right_cam_view/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -90,6 +90,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /workspace/stereo_synthPOC/build/right_cam_view && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_synthPOC/src/stereo_synthPOC/right_cam_view/src/mur_stereo_basler /workspace/stereo_synthPOC/src/stereo_synthPOC/right_cam_view/src/mur_stereo_basler /workspace/stereo_synthPOC/build/right_cam_view /workspace/stereo_synthPOC/build/right_cam_view /workspace/stereo_synthPOC/build/right_cam_view/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/stereo_playground/stereo_synthPOC/build/right_cam_view && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/right_cam_view/src/mur_stereo_basler /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/right_cam_view/src/mur_stereo_basler /workspace/stereo_playground/stereo_synthPOC/build/right_cam_view /workspace/stereo_playground/stereo_synthPOC/build/right_cam_view /workspace/stereo_playground/stereo_synthPOC/build/right_cam_view/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

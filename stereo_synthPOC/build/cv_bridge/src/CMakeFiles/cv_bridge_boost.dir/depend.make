@@ -234,9 +234,9 @@ src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: /usr/local/include/opencv4/open
 src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: /usr/local/include/opencv4/opencv2/viz/viz3d.hpp
 src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: /usr/local/include/opencv4/opencv2/viz/vizcore.hpp
 src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: /usr/local/include/opencv4/opencv2/viz/widgets.hpp
-src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/cv_bridge.h
-src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.cpp
-src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.hpp
+src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/cv_bridge.h
+src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.cpp
+src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.hpp
 
 src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /opt/ros/melodic/include/ros/builtin_message_traits.h
 src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /opt/ros/melodic/include/ros/datatypes.h
@@ -471,8 +471,8 @@ src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /usr/local/include/openc
 src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /usr/local/include/opencv4/opencv2/viz/viz3d.hpp
 src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /usr/local/include/opencv4/opencv2/viz/vizcore.hpp
 src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /usr/local/include/opencv4/opencv2/viz/widgets.hpp
-src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/cv_bridge.h
-src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.hpp
-src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module_opencv.cpp
-src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/pycompat.hpp
+src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/cv_bridge.h
+src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module.hpp
+src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/module_opencv.cpp
+src/CMakeFiles/cv_bridge_boost.dir/module_opencv.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/pycompat.hpp
 

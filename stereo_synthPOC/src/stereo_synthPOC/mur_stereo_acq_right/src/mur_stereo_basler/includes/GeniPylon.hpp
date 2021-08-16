@@ -57,6 +57,13 @@ class PylonCam: public IGeniCam {
             camera.Width = 1920;
             camera.Height = 1200;
 
+               // Set the measuring location to core board
+            // Pylon::CEnumParameter(nodemap, "DeviceTemperatureSelector").SetValue("Coreboard");
+            // Get the current device temperature
+            // double d = Pylon::CFloatParameter(nodemap, "DeviceTemperature").GetValue(); 
+            // std::cout << "Right camera, coreboard temperature: " << d << std::endl;
+        
+
             // Determine the current exposure time
             // double d = Pylon::CFloatParameter(nodemap, "ExposureTime").GetValue();
             // Set the exposure time mode to Standard
@@ -113,25 +120,25 @@ class PylonCam: public IGeniCam {
             // return d;
         }
 
-        GenApi::INodeMap& getNodeMap() {
-            return camera.GetNodeMap();
-        }
+        // GenApi::INodeMap& getNodeMap() {
+        //     return camera.GetNodeMap();
+        // }
 
-        double getExposureTime(GenApi::INodeMap& nodemap) {
-            // return Pylon::CFloatParameter(nodemap, "ExposureTime").GetValue();
+        // double getExposureTime(GenApi::INodeMap& nodemap) {
+        //     // return Pylon::CFloatParameter(nodemap, "ExposureTime").GetValue();
 
-            //   Pylon::CTlFactory& TlFactory = Pylon::CTlFactory::GetInstance();
-            // Pylon::CDeviceInfo di;
-            // di.SetFriendlyName(cameraName.c_str());
-            // camera.Attach(TlFactory.CreateDevice(di));
-            //camera.Open();
-            //GenApi::INodeMap& nodemap = camera.GetNodeMap();
+        //     //   Pylon::CTlFactory& TlFactory = Pylon::CTlFactory::GetInstance();
+        //     // Pylon::CDeviceInfo di;
+        //     // di.SetFriendlyName(cameraName.c_str());
+        //     // camera.Attach(TlFactory.CreateDevice(di));
+        //     //camera.Open();
+        //     //GenApi::INodeMap& nodemap = camera.GetNodeMap();
 
-            double d = Pylon::CFloatParameter(nodemap, "ExposureTime").GetValue();
-            //camera.Close();
-            // return camera.ResultingFrameRate.GetValue();
-            return d;
-        }
+        //     double d = Pylon::CFloatParameter(nodemap, "ExposureTime").GetValue();
+        //     //camera.Close();
+        //     // return camera.ResultingFrameRate.GetValue();
+        //     return d;
+        // }
 
 
         bool retreiveResult(int &height, int &width, uint8_t* &buffer) {

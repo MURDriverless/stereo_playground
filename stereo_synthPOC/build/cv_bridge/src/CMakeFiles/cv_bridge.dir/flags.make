@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cv_bridge\" -Dcv_bridge_EXPORTS
 
-CXX_INCLUDES = -I/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include -I/opt/ros/melodic/include -I/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/. -I/usr/include/python2.7 -I/usr/lib/python2.7/dist-packages/numpy/core/include -isystem /usr/local/include/opencv4
+CXX_INCLUDES = -I/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include -I/opt/ros/melodic/include -I/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/src/. -I/usr/include/python2.7 -I/usr/lib/python2.7/dist-packages/numpy/core/include -isystem /usr/local/include/opencv4
 
 CXX_FLAGS = -fPIC
 

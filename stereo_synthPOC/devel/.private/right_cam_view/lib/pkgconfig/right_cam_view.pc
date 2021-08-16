@@ -1,4 +1,4 @@
-prefix=/workspace/stereo_synthPOC/devel/.private/right_cam_view
+prefix=/workspace/stereo_playground/stereo_synthPOC/devel/.private/right_cam_view
 
 Name: right_cam_view
 Description: Description of right_cam_view

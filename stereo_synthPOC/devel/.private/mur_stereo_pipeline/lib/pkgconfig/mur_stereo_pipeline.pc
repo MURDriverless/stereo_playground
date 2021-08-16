@@ -1,8 +1,8 @@
-prefix=/workspace/stereo_synthPOC/devel/.private/mur_stereo_pipeline
+prefix=/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_pipeline
 
 Name: mur_stereo_pipeline
 Description: Description of mur_stereo_pipeline
 Version: 0.0.0
-Cflags: -I/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical -I/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors -I/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon
+Cflags: -I/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical -I/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors -I/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon
 Libs: -L${prefix}/lib -lmur_stereo_pipeline
 Requires: 

@@ -1,0 +1,21 @@
+[01m[K/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/src/GeniWrap.cpp:[m[K In static member function '[01m[Kstatic IGeniCam* IGeniCam::create(GeniImpl)[m[K':
+[01m[K/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/src/GeniWrap.cpp:8:33:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type '[01m[KPylonCam[m[K'
+             return new PylonCam([01;31m[K)[m[K;
+                                 [01;31m[K^[m[K
+In file included from [01m[K/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/src/GeniWrap.cpp:3:0[m[K:
+[01m[K/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/includes/GeniPylon.hpp:16:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within '[01m[KPylonCam[m[K':
+ class [01;36m[KPylonCam[m[K: public IGeniCam {
+       [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/src/GeniWrap.cpp:1:0[m[K:
+[01m[K/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/includes/GeniWrap.hpp:18:24:[m[K [01;36m[Knote: [m[K	virtual double IGeniCam::getExposureTime()
+         virtual double [01;36m[KgetExposureTime[m[K() = 0;
+                        [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mur_stereo_acq_right.dir/src/GeniWrap.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/src/main.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/src/main.cpp:122:144:[m[K [01;31m[Kerror: [m[K'[01m[Kclass IGeniCam[m[K' has no member named '[01m[KgetNodeMap[m[K'
+           std::cout << "Camera RightFrame Rate is: " << camera1->getFrameRate() << ", Exposure Time is: " << camera1->getExposureTime(camera1->[01;31m[KgetNodeMap[m[K()) << std::endl;
+                                                                                                                                                [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mur_stereo_acq_right.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mur_stereo_acq_right.dir/all] Error 2
+make: *** [all] Error 2

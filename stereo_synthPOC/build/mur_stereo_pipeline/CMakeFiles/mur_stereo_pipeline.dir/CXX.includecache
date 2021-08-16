@@ -1380,7 +1380,7 @@ opencv2/xfeatures2d/nonfree.hpp
 opencv2/features2d.hpp
 /usr/local/include/opencv4/opencv2/xfeatures2d/opencv2/features2d.hpp
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical/ClassicalStereo.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical/ClassicalStereo.hpp
 iostream
 -
 opencv2/core.hpp
@@ -1392,13 +1392,13 @@ opencv2/xfeatures2d.hpp
 opencv2/xfeatures2d/nonfree.hpp
 -
 ConeROI.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical/ConeROI.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical/ConeROI.hpp
 ConeEst.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical/ConeEst.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical/ConeEst.hpp
 PreviewArgs.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical/PreviewArgs.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical/PreviewArgs.hpp
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Detectors.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Detectors.hpp
 iostream
 -
 opencv2/core.hpp
@@ -1408,13 +1408,13 @@ opencv2/core/cuda.hpp
 tkDNN/Yolo3Detection.h
 -
 KeypointDetector.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/KeypointDetector.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/KeypointDetector.hpp
 ConeROI.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/ConeROI.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/ConeROI.hpp
 PreviewArgs.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/PreviewArgs.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/PreviewArgs.hpp
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/EntropyCalibrator.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/EntropyCalibrator.hpp
 cudnn.h
 -
 string
@@ -1422,11 +1422,11 @@ string
 vector
 -
 NvInfer.h
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/NvInfer.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/NvInfer.h
 Utils.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/KeypointDetector.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/KeypointDetector.hpp
 algorithm
 -
 numeric
@@ -1434,17 +1434,17 @@ numeric
 opencv2/opencv.hpp
 -
 NvInfer.h
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/NvInfer.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/NvInfer.h
 NvOnnxParser.h
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/NvOnnxParser.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/NvOnnxParser.h
 Utils.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/Utils.hpp
 NvInfer.h
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/NvInfer.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/NvInfer.h
 EntropyCalibrator.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/EntropyCalibrator.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/EntropyCalibrator.hpp
 iostream
 -
 vector
@@ -1456,43 +1456,43 @@ iomanip
 opencv2/opencv.hpp
 -
 NvOnnxParser.h
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/NvOnnxParser.h
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors/NvOnnxParser.h
 numeric
 -
 fstream
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeColorID.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeColorID.hpp
 iostream
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeEst.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeEst.hpp
 ConeColorID.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeColorID.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeColorID.hpp
 opencv2/core.hpp
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeROI.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeROI.hpp
 ConeColorID.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeColorID.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/ConeColorID.hpp
 opencv2/core.hpp
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/PreviewArgs.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/PreviewArgs.hpp
 opencv2/core.hpp
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/StereoBench.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon/StereoBench.hpp
 iostream
 -
 stdint.h
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Classical/ClassicalStereo.cpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Classical/ClassicalStereo.cpp
 ClassicalStereo.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Classical/ClassicalStereo.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Classical/ClassicalStereo.hpp
 StereoBench.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Classical/StereoBench.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Classical/StereoBench.hpp
 opencv2/core.hpp
 -
 opencv2/calib3d.hpp
@@ -1510,15 +1510,15 @@ opencv2/xfeatures2d.hpp
 opencv2/xfeatures2d/nonfree.hpp
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/Detectors.cpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/Detectors.cpp
 Detectors.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/Detectors.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/Detectors.hpp
 StereoBench.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/StereoBench.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/StereoBench.hpp
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/EntropyCalibrator.cpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/EntropyCalibrator.cpp
 EntropyCalibrator.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/EntropyCalibrator.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/EntropyCalibrator.hpp
 fstream
 -
 iterator
@@ -1530,9 +1530,9 @@ string.h
 algorithm
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/KeypointDetector.cpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/KeypointDetector.cpp
 KeypointDetector.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/KeypointDetector.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/KeypointDetector.hpp
 algorithm
 -
 assert.h
@@ -1560,15 +1560,15 @@ opencv2/opencv.hpp
 chrono
 -
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/Utils.cpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/Utils.cpp
 Utils.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/Utils.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/Detectors/Utils.hpp
 
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/StereoCommon/StereoBench.cpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/StereoCommon/StereoBench.cpp
 iostream
 -
 chrono
 -
 StereoBench.hpp
-/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/StereoCommon/StereoBench.hpp
+/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/src/StereoCommon/StereoBench.hpp
 

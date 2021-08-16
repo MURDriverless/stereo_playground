@@ -67,10 +67,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/cv_bridge
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -156,14 +156,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/cv_bridge/CMakeFiles /workspace/stereo_synthPOC/build/cv_bridge/test//CMakeFiles/progress.marks
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_synthPOC/build/cv_bridge/CMakeFiles 0
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/CMakeFiles /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test//CMakeFiles/progress.marks
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -173,22 +173,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ _run_tests_cv_bridge_nosetests: test/CMakeFiles/_run_tests_cv_bridge_nosetests.d
 
 # fast build rule for target.
 _run_tests_cv_bridge_nosetests/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/build
 .PHONY : _run_tests_cv_bridge_nosetests/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/rule
 .PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ run_tests_cv_bridge_nosetests: test/CMakeFiles/run_tests_cv_bridge_nosetests.dir
 
 # fast build rule for target.
 run_tests_cv_bridge_nosetests/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/build
 .PHONY : run_tests_cv_bridge_nosetests/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
 .PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ run_tests_cv_bridge_nosetests_enumerants.py: test/CMakeFiles/run_tests_cv_bridge
 
 # fast build rule for target.
 run_tests_cv_bridge_nosetests_enumerants.py/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/build
 .PHONY : run_tests_cv_bridge_nosetests_enumerants.py/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ _run_tests_cv_bridge_gtest_cv_bridge-utest: test/CMakeFiles/_run_tests_cv_bridge
 
 # fast build rule for target.
 _run_tests_cv_bridge_gtest_cv_bridge-utest/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/build
 .PHONY : _run_tests_cv_bridge_gtest_cv_bridge-utest/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ _run_tests_cv_bridge_nosetests_enumerants.py: test/CMakeFiles/_run_tests_cv_brid
 
 # fast build rule for target.
 _run_tests_cv_bridge_nosetests_enumerants.py/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build
 .PHONY : _run_tests_cv_bridge_nosetests_enumerants.py/fast
 
 # Convenience name for target.
 test/CMakeFiles/clean_test_results_cv_bridge.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/clean_test_results_cv_bridge.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/clean_test_results_cv_bridge.dir/rule
 .PHONY : test/CMakeFiles/clean_test_results_cv_bridge.dir/rule
 
 # Convenience name for target.
@@ -273,12 +273,12 @@ clean_test_results_cv_bridge: test/CMakeFiles/clean_test_results_cv_bridge.dir/r
 
 # fast build rule for target.
 clean_test_results_cv_bridge/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/clean_test_results_cv_bridge.dir/build.make test/CMakeFiles/clean_test_results_cv_bridge.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/clean_test_results_cv_bridge.dir/build.make test/CMakeFiles/clean_test_results_cv_bridge.dir/build
 .PHONY : clean_test_results_cv_bridge/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_cv_bridge_gtest.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_gtest.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_gtest.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_cv_bridge_gtest.dir/rule
 
 # Convenience name for target.
@@ -288,12 +288,12 @@ _run_tests_cv_bridge_gtest: test/CMakeFiles/_run_tests_cv_bridge_gtest.dir/rule
 
 # fast build rule for target.
 _run_tests_cv_bridge_gtest/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_gtest.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_gtest.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_gtest.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_gtest.dir/build
 .PHONY : _run_tests_cv_bridge_gtest/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
 
 # Convenience name for target.
@@ -303,12 +303,12 @@ _run_tests_cv_bridge_nosetests_python_bindings.py: test/CMakeFiles/_run_tests_cv
 
 # fast build rule for target.
 _run_tests_cv_bridge_nosetests_python_bindings.py/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build
 .PHONY : _run_tests_cv_bridge_nosetests_python_bindings.py/fast
 
 # Convenience name for target.
 test/CMakeFiles/cv_bridge-utest.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/cv_bridge-utest.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/cv_bridge-utest.dir/rule
 .PHONY : test/CMakeFiles/cv_bridge-utest.dir/rule
 
 # Convenience name for target.
@@ -318,12 +318,12 @@ cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/rule
 
 # fast build rule for target.
 cv_bridge-utest/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/build
 .PHONY : cv_bridge-utest/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/rule
 .PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/rule
 
 # Convenience name for target.
@@ -333,12 +333,12 @@ run_tests_cv_bridge_nosetests_conversions.py: test/CMakeFiles/run_tests_cv_bridg
 
 # fast build rule for target.
 run_tests_cv_bridge_nosetests_conversions.py/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/build
 .PHONY : run_tests_cv_bridge_nosetests_conversions.py/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_cv_bridge.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge.dir/rule
 .PHONY : test/CMakeFiles/run_tests_cv_bridge.dir/rule
 
 # Convenience name for target.
@@ -348,12 +348,12 @@ run_tests_cv_bridge: test/CMakeFiles/run_tests_cv_bridge.dir/rule
 
 # fast build rule for target.
 run_tests_cv_bridge/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge.dir/build.make test/CMakeFiles/run_tests_cv_bridge.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge.dir/build.make test/CMakeFiles/run_tests_cv_bridge.dir/build
 .PHONY : run_tests_cv_bridge/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_cv_bridge_gtest_cv_bridge-utest.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_gtest_cv_bridge-utest.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_gtest_cv_bridge-utest.dir/rule
 .PHONY : test/CMakeFiles/run_tests_cv_bridge_gtest_cv_bridge-utest.dir/rule
 
 # Convenience name for target.
@@ -363,12 +363,12 @@ run_tests_cv_bridge_gtest_cv_bridge-utest: test/CMakeFiles/run_tests_cv_bridge_g
 
 # fast build rule for target.
 run_tests_cv_bridge_gtest_cv_bridge-utest/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_gtest_cv_bridge-utest.dir/build.make test/CMakeFiles/run_tests_cv_bridge_gtest_cv_bridge-utest.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_gtest_cv_bridge-utest.dir/build.make test/CMakeFiles/run_tests_cv_bridge_gtest_cv_bridge-utest.dir/build
 .PHONY : run_tests_cv_bridge_gtest_cv_bridge-utest/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_cv_bridge_gtest.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_gtest.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_gtest.dir/rule
 .PHONY : test/CMakeFiles/run_tests_cv_bridge_gtest.dir/rule
 
 # Convenience name for target.
@@ -378,12 +378,12 @@ run_tests_cv_bridge_gtest: test/CMakeFiles/run_tests_cv_bridge_gtest.dir/rule
 
 # fast build rule for target.
 run_tests_cv_bridge_gtest/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_gtest.dir/build.make test/CMakeFiles/run_tests_cv_bridge_gtest.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_gtest.dir/build.make test/CMakeFiles/run_tests_cv_bridge_gtest.dir/build
 .PHONY : run_tests_cv_bridge_gtest/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/rule
 
 # Convenience name for target.
@@ -393,12 +393,12 @@ _run_tests_cv_bridge_nosetests_conversions.py: test/CMakeFiles/_run_tests_cv_bri
 
 # fast build rule for target.
 _run_tests_cv_bridge_nosetests_conversions.py/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/build
 .PHONY : _run_tests_cv_bridge_nosetests_conversions.py/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
 .PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
 
 # Convenience name for target.
@@ -408,12 +408,12 @@ run_tests_cv_bridge_nosetests_python_bindings.py: test/CMakeFiles/run_tests_cv_b
 
 # fast build rule for target.
 run_tests_cv_bridge_nosetests_python_bindings.py/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/build
 .PHONY : run_tests_cv_bridge_nosetests_python_bindings.py/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_cv_bridge.dir/rule:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge.dir/rule
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_cv_bridge.dir/rule
 
 # Convenience name for target.
@@ -423,7 +423,7 @@ _run_tests_cv_bridge: test/CMakeFiles/_run_tests_cv_bridge.dir/rule
 
 # fast build rule for target.
 _run_tests_cv_bridge/fast:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge.dir/build.make test/CMakeFiles/_run_tests_cv_bridge.dir/build
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge.dir/build.make test/CMakeFiles/_run_tests_cv_bridge.dir/build
 .PHONY : _run_tests_cv_bridge/fast
 
 test_compression.o: test_compression.cpp.o
@@ -432,7 +432,7 @@ test_compression.o: test_compression.cpp.o
 
 # target to build an object file
 test_compression.cpp.o:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o
 .PHONY : test_compression.cpp.o
 
 test_compression.i: test_compression.cpp.i
@@ -441,7 +441,7 @@ test_compression.i: test_compression.cpp.i
 
 # target to preprocess a source file
 test_compression.cpp.i:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.i
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.i
 .PHONY : test_compression.cpp.i
 
 test_compression.s: test_compression.cpp.s
@@ -450,7 +450,7 @@ test_compression.s: test_compression.cpp.s
 
 # target to generate assembly for a file
 test_compression.cpp.s:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.s
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.s
 .PHONY : test_compression.cpp.s
 
 test_endian.o: test_endian.cpp.o
@@ -459,7 +459,7 @@ test_endian.o: test_endian.cpp.o
 
 # target to build an object file
 test_endian.cpp.o:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o
 .PHONY : test_endian.cpp.o
 
 test_endian.i: test_endian.cpp.i
@@ -468,7 +468,7 @@ test_endian.i: test_endian.cpp.i
 
 # target to preprocess a source file
 test_endian.cpp.i:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.i
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.i
 .PHONY : test_endian.cpp.i
 
 test_endian.s: test_endian.cpp.s
@@ -477,7 +477,7 @@ test_endian.s: test_endian.cpp.s
 
 # target to generate assembly for a file
 test_endian.cpp.s:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.s
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.s
 .PHONY : test_endian.cpp.s
 
 test_rgb_colors.o: test_rgb_colors.cpp.o
@@ -486,7 +486,7 @@ test_rgb_colors.o: test_rgb_colors.cpp.o
 
 # target to build an object file
 test_rgb_colors.cpp.o:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o
 .PHONY : test_rgb_colors.cpp.o
 
 test_rgb_colors.i: test_rgb_colors.cpp.i
@@ -495,7 +495,7 @@ test_rgb_colors.i: test_rgb_colors.cpp.i
 
 # target to preprocess a source file
 test_rgb_colors.cpp.i:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.i
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.i
 .PHONY : test_rgb_colors.cpp.i
 
 test_rgb_colors.s: test_rgb_colors.cpp.s
@@ -504,7 +504,7 @@ test_rgb_colors.s: test_rgb_colors.cpp.s
 
 # target to generate assembly for a file
 test_rgb_colors.cpp.s:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.s
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.s
 .PHONY : test_rgb_colors.cpp.s
 
 utest.o: utest.cpp.o
@@ -513,7 +513,7 @@ utest.o: utest.cpp.o
 
 # target to build an object file
 utest.cpp.o:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o
 .PHONY : utest.cpp.o
 
 utest.i: utest.cpp.i
@@ -522,7 +522,7 @@ utest.i: utest.cpp.i
 
 # target to preprocess a source file
 utest.cpp.i:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.i
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.i
 .PHONY : utest.cpp.i
 
 utest.s: utest.cpp.s
@@ -531,7 +531,7 @@ utest.s: utest.cpp.s
 
 # target to generate assembly for a file
 utest.cpp.s:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.s
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.s
 .PHONY : utest.cpp.s
 
 utest2.o: utest2.cpp.o
@@ -540,7 +540,7 @@ utest2.o: utest2.cpp.o
 
 # target to build an object file
 utest2.cpp.o:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o
 .PHONY : utest2.cpp.o
 
 utest2.i: utest2.cpp.i
@@ -549,7 +549,7 @@ utest2.i: utest2.cpp.i
 
 # target to preprocess a source file
 utest2.cpp.i:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.i
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.i
 .PHONY : utest2.cpp.i
 
 utest2.s: utest2.cpp.s
@@ -558,7 +558,7 @@ utest2.s: utest2.cpp.s
 
 # target to generate assembly for a file
 utest2.cpp.s:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.s
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.s
 .PHONY : utest2.cpp.s
 
 # Help Target
@@ -616,6 +616,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-prefix=/workspace/stereo_synthPOC/install
+prefix=/workspace/stereo_playground/stereo_synthPOC/install
 
 Name: mur_left_image_acq
 Description: Description of mur_left_image_acq

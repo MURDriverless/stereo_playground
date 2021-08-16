@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dmur_stereo_pipeline_EXPORTS
 
-CXX_INCLUDES = -I/usr/local/cuda/include -I/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical -I/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors -I/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon -isystem /usr/local/include/opencv4
+CXX_INCLUDES = -I/usr/local/cuda/include -I/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Classical -I/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/Detectors -I/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/includes/StereoCommon -isystem /usr/local/include/opencv4
 
 CXX_FLAGS =  --std=c++11 -fPIC -fPIC
 

@@ -62,10 +62,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/stereo_launch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/stereo_launch
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch
 
 # Utility rule file for _run_tests_stereo_launch.
 
@@ -86,6 +86,6 @@ CMakeFiles/_run_tests_stereo_launch.dir/clean:
 .PHONY : CMakeFiles/_run_tests_stereo_launch.dir/clean
 
 CMakeFiles/_run_tests_stereo_launch.dir/depend:
-	cd /workspace/stereo_synthPOC/build/stereo_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch /workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch /workspace/stereo_synthPOC/build/stereo_launch /workspace/stereo_synthPOC/build/stereo_launch /workspace/stereo_synthPOC/build/stereo_launch/CMakeFiles/_run_tests_stereo_launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/stereo_launch /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/stereo_launch /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch /workspace/stereo_playground/stereo_synthPOC/build/stereo_launch/CMakeFiles/_run_tests_stereo_launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_stereo_launch.dir/depend
 

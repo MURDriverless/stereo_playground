@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_compression.cpp" "/workspace/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_endian.cpp" "/workspace/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_rgb_colors.cpp" "/workspace/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest.cpp" "/workspace/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest2.cpp" "/workspace/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_compression.cpp" "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_endian.cpp" "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_rgb_colors.cpp" "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest.cpp" "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest2.cpp" "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,17 +21,17 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include"
   "/opt/ros/melodic/include"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/../src"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/../src"
   "/usr/src/googletest/googletest/include"
   "/usr/local/include/opencv4"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/workspace/stereo_synthPOC/build/cv_bridge/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/workspace/stereo_synthPOC/build/cv_bridge/src/CMakeFiles/cv_bridge.dir/DependInfo.cmake"
+  "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/src/CMakeFiles/cv_bridge.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

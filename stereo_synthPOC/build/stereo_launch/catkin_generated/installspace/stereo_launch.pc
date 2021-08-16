@@ -1,4 +1,4 @@
-prefix=/workspace/stereo_synthPOC/install
+prefix=/workspace/stereo_playground/stereo_synthPOC/install
 
 Name: stereo_launch
 Description: Description of stereo_launch

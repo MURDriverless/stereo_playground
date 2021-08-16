@@ -62,10 +62,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/cv_bridge
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge
 
 # Utility rule file for _run_tests_cv_bridge_nosetests_enumerants.py.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/cv_bridge
 include test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/progress.make
 
 test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py:
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /workspace/stereo_synthPOC/build/cv_bridge/test_results/cv_bridge/nosetests-enumerants.py.xml "\"/opt/cmake-3.18.2-Linux-x86_64/bin/cmake\" -E make_directory /workspace/stereo_synthPOC/build/cv_bridge/test_results/cv_bridge" "/usr/bin/nosetests-2.7 -P --process-timeout=60 /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/enumerants.py --with-xunit --xunit-file=/workspace/stereo_synthPOC/build/cv_bridge/test_results/cv_bridge/nosetests-enumerants.py.xml"
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test_results/cv_bridge/nosetests-enumerants.py.xml "\"/opt/cmake-3.18.2-Linux-x86_64/bin/cmake\" -E make_directory /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test_results/cv_bridge" "/usr/bin/nosetests-2.7 -P --process-timeout=60 /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/enumerants.py --with-xunit --xunit-file=/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test_results/cv_bridge/nosetests-enumerants.py.xml"
 
 _run_tests_cv_bridge_nosetests_enumerants.py: test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py
 _run_tests_cv_bridge_nosetests_enumerants.py: test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make
@@ -86,10 +86,10 @@ test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build: _run_tes
 .PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build
 
 test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/clean:
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/cmake_clean.cmake
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/clean
 
 test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/depend:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test /workspace/stereo_synthPOC/build/cv_bridge /workspace/stereo_synthPOC/build/cv_bridge/test /workspace/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/depend
 

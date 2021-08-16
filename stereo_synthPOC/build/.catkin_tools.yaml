@@ -1,6 +1,6 @@
-devel_space: /workspace/stereo_synthPOC/devel
+devel_space: /workspace/stereo_playground/stereo_synthPOC/devel
 install: false
-install_space: /workspace/stereo_synthPOC/install
+install_space: /workspace/stereo_playground/stereo_synthPOC/install
 profile: default
-source_space: /workspace/stereo_synthPOC/src
-workspace: /workspace/stereo_synthPOC
+source_space: /workspace/stereo_playground/stereo_synthPOC/src
+workspace: /workspace/stereo_playground/stereo_synthPOC

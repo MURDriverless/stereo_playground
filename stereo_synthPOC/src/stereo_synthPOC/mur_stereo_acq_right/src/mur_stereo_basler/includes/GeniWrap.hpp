@@ -15,8 +15,8 @@ class IGeniCam {
         virtual bool retreiveResult(int &height, int &width, uint8_t* &buffer) = 0;
         virtual void clearResult() = 0;
         virtual double getFrameRate()  = 0;
-        virtual double getExposureTime() = 0;
-        virtual GenApi::INodeMap& getNodeMap() = 0;
+        // virtual double getExposureTime() = 0;
+        // virtual GenApi::INodeMap& getNodeMap() = 0;
 
         static IGeniCam* create(GeniImpl geniImpl);
 };

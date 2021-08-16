@@ -62,10 +62,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/cv_bridge
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/cv_bridge-utest.dir/depend.make
@@ -77,69 +77,69 @@ include test/CMakeFiles/cv_bridge-utest.dir/progress.make
 include test/CMakeFiles/cv_bridge-utest.dir/flags.make
 
 test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o: test/CMakeFiles/cv_bridge-utest.dir/flags.make
-test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_endian.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/stereo_synthPOC/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o -c /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_endian.cpp
+test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_endian.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o"
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o -c /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_endian.cpp
 
 test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.i"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_endian.cpp > CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.i
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_endian.cpp > CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.i
 
 test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.s"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_endian.cpp -o CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.s
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_endian.cpp -o CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.s
 
 test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o: test/CMakeFiles/cv_bridge-utest.dir/flags.make
-test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_compression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/stereo_synthPOC/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o -c /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_compression.cpp
+test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_compression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o"
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o -c /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_compression.cpp
 
 test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.i"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_compression.cpp > CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.i
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_compression.cpp > CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.i
 
 test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.s"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_compression.cpp -o CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.s
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_compression.cpp -o CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.s
 
 test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o: test/CMakeFiles/cv_bridge-utest.dir/flags.make
-test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/stereo_synthPOC/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge-utest.dir/utest.cpp.o -c /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest.cpp
+test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o"
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge-utest.dir/utest.cpp.o -c /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest.cpp
 
 test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cv_bridge-utest.dir/utest.cpp.i"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest.cpp > CMakeFiles/cv_bridge-utest.dir/utest.cpp.i
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest.cpp > CMakeFiles/cv_bridge-utest.dir/utest.cpp.i
 
 test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cv_bridge-utest.dir/utest.cpp.s"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest.cpp -o CMakeFiles/cv_bridge-utest.dir/utest.cpp.s
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest.cpp -o CMakeFiles/cv_bridge-utest.dir/utest.cpp.s
 
 test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o: test/CMakeFiles/cv_bridge-utest.dir/flags.make
-test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/stereo_synthPOC/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o -c /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest2.cpp
+test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o"
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o -c /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest2.cpp
 
 test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cv_bridge-utest.dir/utest2.cpp.i"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest2.cpp > CMakeFiles/cv_bridge-utest.dir/utest2.cpp.i
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest2.cpp > CMakeFiles/cv_bridge-utest.dir/utest2.cpp.i
 
 test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cv_bridge-utest.dir/utest2.cpp.s"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest2.cpp -o CMakeFiles/cv_bridge-utest.dir/utest2.cpp.s
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/utest2.cpp -o CMakeFiles/cv_bridge-utest.dir/utest2.cpp.s
 
 test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o: test/CMakeFiles/cv_bridge-utest.dir/flags.make
-test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_rgb_colors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/stereo_synthPOC/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o -c /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_rgb_colors.cpp
+test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_rgb_colors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o"
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o -c /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_rgb_colors.cpp
 
 test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.i"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_rgb_colors.cpp > CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.i
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_rgb_colors.cpp > CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.i
 
 test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.s"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_rgb_colors.cpp -o CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.s
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test/test_rgb_colors.cpp -o CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.s
 
 # Object files for target cv_bridge-utest
 cv_bridge__utest_OBJECTS = \
@@ -152,47 +152,47 @@ cv_bridge__utest_OBJECTS = \
 # External object files for target cv_bridge-utest
 cv_bridge__utest_EXTERNAL_OBJECTS =
 
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/build.make
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: gtest/googlemock/gtest/libgtest.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/libcv_bridge.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/local/lib/libopencv_imgcodecs.so.4.1.1
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /opt/ros/melodic/lib/librosconsole.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /opt/ros/melodic/lib/libroscpp_serialization.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /opt/ros/melodic/lib/librostime.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /opt/ros/melodic/lib/libcpp_common.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libpthread.so
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/local/lib/libopencv_imgproc.so.4.1.1
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/local/lib/libopencv_core.so.4.1.1
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/local/lib/libopencv_cudev.so.4.1.1
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/stereo_synthPOC/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable /workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest"
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cv_bridge-utest.dir/link.txt --verbose=$(VERBOSE)
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/build.make
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: gtest/googlemock/gtest/libgtest.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/libcv_bridge.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/local/lib/libopencv_imgcodecs.so.4.1.1
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /opt/ros/melodic/lib/librosconsole.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /opt/ros/melodic/lib/libroscpp_serialization.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /opt/ros/melodic/lib/librostime.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /opt/ros/melodic/lib/libcpp_common.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libpthread.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/local/lib/libopencv_imgproc.so.4.1.1
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/local/lib/libopencv_core.so.4.1.1
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: /usr/local/lib/libopencv_cudev.so.4.1.1
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest: test/CMakeFiles/cv_bridge-utest.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable /workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest"
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cv_bridge-utest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-test/CMakeFiles/cv_bridge-utest.dir/build: /workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest
+test/CMakeFiles/cv_bridge-utest.dir/build: /workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest
 
 .PHONY : test/CMakeFiles/cv_bridge-utest.dir/build
 
 test/CMakeFiles/cv_bridge-utest.dir/clean:
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && $(CMAKE_COMMAND) -P CMakeFiles/cv_bridge-utest.dir/cmake_clean.cmake
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && $(CMAKE_COMMAND) -P CMakeFiles/cv_bridge-utest.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/cv_bridge-utest.dir/clean
 
 test/CMakeFiles/cv_bridge-utest.dir/depend:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test /workspace/stereo_synthPOC/build/cv_bridge /workspace/stereo_synthPOC/build/cv_bridge/test /workspace/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/cv_bridge-utest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/cv_bridge-utest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/cv_bridge-utest.dir/depend
 

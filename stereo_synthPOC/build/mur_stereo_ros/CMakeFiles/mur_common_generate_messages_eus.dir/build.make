@@ -62,10 +62,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_ros
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/mur_stereo_ros
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_ros
 
 # Utility rule file for mur_common_generate_messages_eus.
 
@@ -86,6 +86,6 @@ CMakeFiles/mur_common_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/mur_common_generate_messages_eus.dir/clean
 
 CMakeFiles/mur_common_generate_messages_eus.dir/depend:
-	cd /workspace/stereo_synthPOC/build/mur_stereo_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_ros /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_ros /workspace/stereo_synthPOC/build/mur_stereo_ros /workspace/stereo_synthPOC/build/mur_stereo_ros /workspace/stereo_synthPOC/build/mur_stereo_ros/CMakeFiles/mur_common_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_ros /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_ros /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_ros /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_ros /workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_ros/CMakeFiles/mur_common_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mur_common_generate_messages_eus.dir/depend
 

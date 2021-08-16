@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/workspace/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup/lib/mur_stereo_rosbag_matchup/Disparity"
-  "/workspace/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup/lib/mur_stereo_rosbag_matchup/Disparity.pdb"
+  "/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup/lib/mur_stereo_rosbag_matchup/Disparity"
+  "/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup/lib/mur_stereo_rosbag_matchup/Disparity.pdb"
   "CMakeFiles/Disparity.dir/src/disparity_filtering.cpp.o"
 )
 

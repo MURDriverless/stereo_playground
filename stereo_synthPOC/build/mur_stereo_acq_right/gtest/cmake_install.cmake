@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspace/stereo_synthPOC/install")
+  set(CMAKE_INSTALL_PREFIX "/workspace/stereo_playground/stereo_synthPOC/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/workspace/stereo_synthPOC/build/mur_stereo_acq_right/gtest/googlemock/cmake_install.cmake")
+  include("/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_acq_right/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

@@ -62,10 +62,10 @@ RM = /opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge
+CMAKE_SOURCE_DIR = /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/cv_bridge
+CMAKE_BINARY_DIR = /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge
 
 # Utility rule file for clean_test_results_cv_bridge.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /workspace/stereo_synthPOC/build/cv_bridge
 include test/CMakeFiles/clean_test_results_cv_bridge.dir/progress.make
 
 test/CMakeFiles/clean_test_results_cv_bridge:
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /workspace/stereo_synthPOC/build/cv_bridge/test_results/cv_bridge
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test_results/cv_bridge
 
 clean_test_results_cv_bridge: test/CMakeFiles/clean_test_results_cv_bridge
 clean_test_results_cv_bridge: test/CMakeFiles/clean_test_results_cv_bridge.dir/build.make
@@ -86,10 +86,10 @@ test/CMakeFiles/clean_test_results_cv_bridge.dir/build: clean_test_results_cv_br
 .PHONY : test/CMakeFiles/clean_test_results_cv_bridge.dir/build
 
 test/CMakeFiles/clean_test_results_cv_bridge.dir/clean:
-	cd /workspace/stereo_synthPOC/build/cv_bridge/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_cv_bridge.dir/cmake_clean.cmake
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_cv_bridge.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/clean_test_results_cv_bridge.dir/clean
 
 test/CMakeFiles/clean_test_results_cv_bridge.dir/depend:
-	cd /workspace/stereo_synthPOC/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test /workspace/stereo_synthPOC/build/cv_bridge /workspace/stereo_synthPOC/build/cv_bridge/test /workspace/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/clean_test_results_cv_bridge.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/test /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test /workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test/CMakeFiles/clean_test_results_cv_bridge.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/clean_test_results_cv_bridge.dir/depend
 

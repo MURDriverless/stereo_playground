@@ -1,8 +1,8 @@
-# Install script for directory: /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge
+# Install script for directory: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspace/stereo_synthPOC/install")
+  set(CMAKE_INSTALL_PREFIX "/workspace/stereo_playground/stereo_synthPOC/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -54,118 +54,118 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/workspace/stereo_synthPOC/install/_setup_util.py")
+   "/workspace/stereo_playground/stereo_synthPOC/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/workspace/stereo_synthPOC/install" TYPE PROGRAM FILES "/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/workspace/stereo_playground/stereo_synthPOC/install" TYPE PROGRAM FILES "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/workspace/stereo_synthPOC/install/env.sh")
+   "/workspace/stereo_playground/stereo_synthPOC/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/workspace/stereo_synthPOC/install" TYPE PROGRAM FILES "/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/workspace/stereo_playground/stereo_synthPOC/install" TYPE PROGRAM FILES "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/workspace/stereo_synthPOC/install/setup.bash;/workspace/stereo_synthPOC/install/local_setup.bash")
+   "/workspace/stereo_playground/stereo_synthPOC/install/setup.bash;/workspace/stereo_playground/stereo_synthPOC/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/workspace/stereo_synthPOC/install" TYPE FILE FILES
-    "/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/setup.bash"
-    "/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/workspace/stereo_playground/stereo_synthPOC/install" TYPE FILE FILES
+    "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/setup.bash"
+    "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/workspace/stereo_synthPOC/install/setup.sh;/workspace/stereo_synthPOC/install/local_setup.sh")
+   "/workspace/stereo_playground/stereo_synthPOC/install/setup.sh;/workspace/stereo_playground/stereo_synthPOC/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/workspace/stereo_synthPOC/install" TYPE FILE FILES
-    "/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/setup.sh"
-    "/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/workspace/stereo_playground/stereo_synthPOC/install" TYPE FILE FILES
+    "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/setup.sh"
+    "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/workspace/stereo_synthPOC/install/setup.zsh;/workspace/stereo_synthPOC/install/local_setup.zsh")
+   "/workspace/stereo_playground/stereo_synthPOC/install/setup.zsh;/workspace/stereo_playground/stereo_synthPOC/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/workspace/stereo_synthPOC/install" TYPE FILE FILES
-    "/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/setup.zsh"
-    "/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/workspace/stereo_playground/stereo_synthPOC/install" TYPE FILE FILES
+    "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/setup.zsh"
+    "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/workspace/stereo_synthPOC/install/.rosinstall")
+   "/workspace/stereo_playground/stereo_synthPOC/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/workspace/stereo_synthPOC/install" TYPE FILE FILES "/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/workspace/stereo_playground/stereo_synthPOC/install" TYPE FILE FILES "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/cv_bridge.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/cv_bridge.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cv_bridge/cmake" TYPE FILE FILES "/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/cv_bridge-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cv_bridge/cmake" TYPE FILE FILES "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/cv_bridge-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cv_bridge/cmake" TYPE FILE FILES
-    "/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/cv_bridgeConfig.cmake"
-    "/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/cv_bridgeConfig-version.cmake"
+    "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/cv_bridgeConfig.cmake"
+    "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/installspace/cv_bridgeConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cv_bridge" TYPE FILE FILES "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cv_bridge" TYPE FILE FILES "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/workspace/stereo_synthPOC/build/cv_bridge/catkin_generated/safe_execute_install.cmake")
+  include("/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cv_bridge" TYPE DIRECTORY FILES "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cv_bridge" TYPE DIRECTORY FILES "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/workspace/stereo_synthPOC/build/cv_bridge/gtest/cmake_install.cmake")
-  include("/workspace/stereo_synthPOC/build/cv_bridge/python/cmake_install.cmake")
-  include("/workspace/stereo_synthPOC/build/cv_bridge/src/cmake_install.cmake")
-  include("/workspace/stereo_synthPOC/build/cv_bridge/test/cmake_install.cmake")
+  include("/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/gtest/cmake_install.cmake")
+  include("/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/python/cmake_install.cmake")
+  include("/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/src/cmake_install.cmake")
+  include("/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/test/cmake_install.cmake")
 
 endif()
 
@@ -177,5 +177,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/workspace/stereo_synthPOC/build/cv_bridge/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

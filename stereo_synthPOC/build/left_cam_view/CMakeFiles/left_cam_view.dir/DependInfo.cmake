@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/src/GeniWrap.cpp" "/workspace/stereo_synthPOC/build/left_cam_view/CMakeFiles/left_cam_view.dir/src/GeniWrap.cpp.o"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/src/main.cpp" "/workspace/stereo_synthPOC/build/left_cam_view/CMakeFiles/left_cam_view.dir/src/main.cpp.o"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/src/GeniWrap.cpp" "/workspace/stereo_playground/stereo_synthPOC/build/left_cam_view/CMakeFiles/left_cam_view.dir/src/GeniWrap.cpp.o"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/src/main.cpp" "/workspace/stereo_playground/stereo_synthPOC/build/left_cam_view/CMakeFiles/left_cam_view.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,15 +18,15 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include"
   "/opt/pylon/include"
   "/usr/local/cuda/include"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/includes"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/includes/Classical"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/includes/Detectors"
-  "/workspace/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/includes/StereoCommon"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/includes"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/includes/Classical"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/includes/Detectors"
+  "/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/includes/StereoCommon"
   "/usr/local/include/opencv4"
   )
 
