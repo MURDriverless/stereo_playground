@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="mur_stereo_rosbag_matchup" type="mur_stereo_rosbag_matchup" name="mur_stereo_rosbag_matchup" output="screen"/>
+</launch>

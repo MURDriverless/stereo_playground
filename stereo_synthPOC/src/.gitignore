@@ -1,0 +1,9 @@
+.vscode/**
+build/**
+models/**
+*.mp4
+*.xml
+*.png
+
+!package.xml
+calibration.xml.bak

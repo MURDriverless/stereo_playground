@@ -1,0 +1,8 @@
+prefix=/workspace/stereo_synthPOC/install
+
+Name: stereo_launch
+Description: Description of stereo_launch
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

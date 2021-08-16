@@ -1,0 +1,1 @@
+/workspace/stereo_synthPOC/devel/.private/mur_stereo_basler_ros_package/share/mur_stereo_basler_ros_package/cmake/mur_stereo_basler_ros_packageConfig-version.cmake

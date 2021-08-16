@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="mur_stereo_acq_right" type="mur_stereo_acq_right" name="mur_stereo_acq_right" output="screen"/>
+</launch>

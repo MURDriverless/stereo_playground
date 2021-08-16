@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmur_stereo_pipeline.a CMakeFiles/mur_stereo_pipeline.dir/src/Classical/ClassicalStereo.cpp.o CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/EntropyCalibrator.cpp.o CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Utils.cpp.o CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/Detectors.cpp.o CMakeFiles/mur_stereo_pipeline.dir/src/Detectors/KeypointDetector.cpp.o CMakeFiles/mur_stereo_pipeline.dir/src/StereoCommon/StereoBench.cpp.o
+/usr/bin/ranlib libmur_stereo_pipeline.a

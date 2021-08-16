@@ -1,0 +1,6 @@
+mur_stereo_ros
+/workspace/mur_stereo_baslar_ros_package/devel/.private/mur_stereo_ros/cmake.lock /workspace/mur_stereo_baslar_ros_package/devel/./cmake.lock
+/workspace/mur_stereo_baslar_ros_package/devel/.private/mur_stereo_ros/share/mur_stereo_ros/cmake/mur_stereo_rosConfig-version.cmake /workspace/mur_stereo_baslar_ros_package/devel/share/mur_stereo_ros/cmake/mur_stereo_rosConfig-version.cmake
+/workspace/mur_stereo_baslar_ros_package/devel/.private/mur_stereo_ros/share/mur_stereo_ros/cmake/mur_stereo_rosConfig.cmake /workspace/mur_stereo_baslar_ros_package/devel/share/mur_stereo_ros/cmake/mur_stereo_rosConfig.cmake
+/workspace/mur_stereo_baslar_ros_package/devel/.private/mur_stereo_ros/lib/mur_stereo_ros/mur_stereo_ros_node /workspace/mur_stereo_baslar_ros_package/devel/lib/mur_stereo_ros/mur_stereo_ros_node
+/workspace/mur_stereo_baslar_ros_package/devel/.private/mur_stereo_ros/lib/pkgconfig/mur_stereo_ros.pc /workspace/mur_stereo_baslar_ros_package/devel/lib/pkgconfig/mur_stereo_ros.pc

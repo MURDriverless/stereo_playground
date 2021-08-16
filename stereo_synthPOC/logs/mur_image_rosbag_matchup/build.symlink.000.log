@@ -1,0 +1,5 @@
+Symlinking /workspace/stereo_synthPOC/devel/share/mur_image_rosbag_matchup/cmake/mur_image_rosbag_matchupConfig.cmake
+Symlinking /workspace/stereo_synthPOC/devel/share/mur_image_rosbag_matchup/cmake/mur_image_rosbag_matchupConfig-version.cmake
+Symlinking /workspace/stereo_synthPOC/devel/lib/mur_image_rosbag_matchup/mur_image_rosbag_matchup
+Symlinking /workspace/stereo_synthPOC/devel/lib/mur_image_rosbag_matchup/Disparity
+Symlinking /workspace/stereo_synthPOC/devel/lib/pkgconfig/mur_image_rosbag_matchup.pc

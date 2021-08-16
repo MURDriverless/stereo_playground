@@ -1,0 +1,19 @@
+In file included from [01m[K/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/src/mur_stereo_basler/src/GeniWrap.cpp:3:0[m[K:
+[01m[K/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/src/mur_stereo_basler/includes/GeniPylon.hpp:[m[K In member function '[01m[Kvirtual void PylonCam::setup(std::__cxx11::string)[m[K':
+[01m[K/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/src/mur_stereo_basler/includes/GeniPylon.hpp:58:13:[m[K [01;31m[Kerror: [m[K'[01m[KCEnumParameter[m[K' was not declared in this scope
+             [01;31m[KCEnumParameter[m[K(nodemap, "BslLightSourcePreset").SetValue("Off");
+             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/src/mur_stereo_basler/includes/GeniPylon.hpp:58:13:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/pylon/include/pylon/ParameterIncludes.h:19:0[m[K,
+                 from [01m[K/opt/pylon/include/pylon/_InstantCameraParams.h:26[m[K,
+                 from [01m[K/opt/pylon/include/pylon/InstantCamera.h:44[m[K,
+                 from [01m[K/opt/pylon/include/pylon/AcquireSingleFrameConfiguration.h:24[m[K,
+                 from [01m[K/opt/pylon/include/pylon/PylonIncludes.h:124[m[K,
+                 from [01m[K/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/src/mur_stereo_basler/includes/GeniPylon.hpp:10[m[K,
+                 from [01m[K/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/src/mur_stereo_basler/src/GeniWrap.cpp:3[m[K:
+[01m[K/opt/pylon/include/pylon/EnumParameter.h:195:25:[m[K [01;36m[Knote: [m[K  '[01m[KPylon::CEnumParameter[m[K'
+     class PYLONBASE_API [01;36m[KCEnumParameter[m[K : virtual public IEnumerationEx, public CParameter
+                         [01;36m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mur_left_image_acq.dir/src/GeniWrap.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mur_left_image_acq.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,6 @@
+mur_stereo_pipeline
+/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/devel/.private/mur_stereo_pipeline/cmake.lock /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/devel/./cmake.lock
+/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/devel/.private/mur_stereo_pipeline/share/mur_stereo_pipeline/cmake/mur_stereo_pipelineConfig.cmake /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/devel/share/mur_stereo_pipeline/cmake/mur_stereo_pipelineConfig.cmake
+/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/devel/.private/mur_stereo_pipeline/share/mur_stereo_pipeline/cmake/mur_stereo_pipelineConfig-version.cmake /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/devel/share/mur_stereo_pipeline/cmake/mur_stereo_pipelineConfig-version.cmake
+/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/devel/.private/mur_stereo_pipeline/lib/libmur_stereo_pipeline.so /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/devel/lib/libmur_stereo_pipeline.so
+/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/devel/.private/mur_stereo_pipeline/lib/pkgconfig/mur_stereo_pipeline.pc /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/devel/lib/pkgconfig/mur_stereo_pipeline.pc

@@ -1,0 +1,7 @@
+In the mur_stereo_pipeline folder, the src folder has 3 subfolders:
+1) Classical
+2) Detectors
+3) StereoCommon 
+
+Detectors has 4 classes; Detectors.cpp, EntropyCalibrator.cpp, KeypointDetector.cpp, and Utils.cpp 
+

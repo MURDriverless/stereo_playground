@@ -1,0 +1,8 @@
+prefix=/workspace/stereo_synthPOC/install
+
+Name: mur_stereo_ros
+Description: Description of mur_stereo_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: cv_bridge image_transport roscpp std_msgs mur_stereo_pipeline mur_common

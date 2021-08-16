@@ -1,0 +1,8 @@
+Gtk-Message: 05:49:31.289: Failed to load module "canberra-gtk-module"
+Gtk-Message: 05:49:31.289: Failed to load module "canberra-gtk-module"
+Using device a2A1920-160ucBAS
+ending program
+[33m[ WARN] [1626933270.993157265]: Shutdown request received.[0m
+[33m[ WARN] [1626933270.995062445]: Reason given for shutdown: [[/Left_Image_Acquisition] Reason: new node registered with same name][0m
+Using device a2A1920-160ucBAS
+ending program

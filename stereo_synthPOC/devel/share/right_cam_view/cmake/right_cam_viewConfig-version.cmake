@@ -1,0 +1,1 @@
+/workspace/stereo_synthPOC/devel/.private/right_cam_view/share/right_cam_view/cmake/right_cam_viewConfig-version.cmake

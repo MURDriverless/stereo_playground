@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /workspace/stereo_synthPOC/devel/.private/mur_left_image_acq/setup.sh

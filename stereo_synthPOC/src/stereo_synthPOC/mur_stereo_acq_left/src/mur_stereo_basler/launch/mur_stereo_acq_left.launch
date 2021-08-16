@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="mur_left_image_acq" type="mur_left_image_acq" name="mur_left_image_acq" output="screen"/>
+</launch>

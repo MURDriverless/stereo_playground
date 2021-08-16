@@ -1,0 +1,1 @@
+/workspace/stereo_synthPOC/devel/.private/mur_stereo_pipeline/lib/pkgconfig/mur_stereo_pipeline.pc

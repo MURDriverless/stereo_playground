@@ -1,0 +1,8 @@
+prefix=/workspace/stereo_synthPOC/devel/.private/right_cam_view
+
+Name: right_cam_view
+Description: Description of right_cam_view
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+	<!--################# Args ###################-->
+
+  <!-- 
+       For use on CLI e.g. "roslaunch mursim_gazebo perception:=false"
+  -->
+  
+	<arg name="perception" default="true"/>
+
+	<!--################# Perception Pipeline ###################-->
+
+  <!-- 
+       Launches:
+        - Lidar
+        - SLAM
+  -->
+
+	<group if="$(arg perception)">
+		<include file="$(find mur_left_image_acq)/launch/mur_stereo_acq_left.launch"/>
+		<include file="$(find mur_stereo_acq_right)/launch/mur_stereo_acq_right.launch"/>
+        <include file="$(find mur_stereo_rosbag_matchup)/launch/mur_stereo_rosbag_matchup.launch"/>
+	</group>
+
+</launch>

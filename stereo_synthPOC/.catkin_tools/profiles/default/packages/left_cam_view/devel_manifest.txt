@@ -1,0 +1,6 @@
+stereo_synthPOC/left_cam_view/src/mur_stereo_basler
+/workspace/stereo_synthPOC/devel/.private/left_cam_view/cmake.lock /workspace/stereo_synthPOC/devel/./cmake.lock
+/workspace/stereo_synthPOC/devel/.private/left_cam_view/share/left_cam_view/cmake/left_cam_viewConfig.cmake /workspace/stereo_synthPOC/devel/share/left_cam_view/cmake/left_cam_viewConfig.cmake
+/workspace/stereo_synthPOC/devel/.private/left_cam_view/share/left_cam_view/cmake/left_cam_viewConfig-version.cmake /workspace/stereo_synthPOC/devel/share/left_cam_view/cmake/left_cam_viewConfig-version.cmake
+/workspace/stereo_synthPOC/devel/.private/left_cam_view/lib/left_cam_view/left_cam_view /workspace/stereo_synthPOC/devel/lib/left_cam_view/left_cam_view
+/workspace/stereo_synthPOC/devel/.private/left_cam_view/lib/pkgconfig/left_cam_view.pc /workspace/stereo_synthPOC/devel/lib/pkgconfig/left_cam_view.pc

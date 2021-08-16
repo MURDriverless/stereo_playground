@@ -1,0 +1,1 @@
+/workspace/stereo_synthPOC/devel/.private/mur_common/share/roseus/ros/mur_common/msg/timing_msg.l

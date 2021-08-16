@@ -1,0 +1,3 @@
+[36m--[0m Found tkDNN
+[36m--[0m Found CUDNN: /usr/lib/x86_64-linux-gnu/libcudnn.so
+[36m--[0m Found NVINFER: /usr/lib/x86_64-linux-gnu/libnvinfer.so

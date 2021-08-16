@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch/CMakeLists.txt:14 (add_subdirectory):
+  add_subdirectory given source "mur_stereo_pipeline" which is not an
+  existing directory.
+
+
+[31m[1mCMake Error[0m at /workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch/CMakeLists.txt:16 (target_include_directories):
+  Cannot specify include directories for target "mur_stereo_video" which is
+  not built by this project.
+
+
+[31m[1mCMake Error[0m at /workspace/stereo_synthPOC/src/stereo_synthPOC/stereo_launch/CMakeLists.txt:20 (target_link_libraries):
+  Cannot specify link libraries for target "mur_stereo_video" which is not
+  built by this project.
+
+

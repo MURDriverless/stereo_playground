@@ -1,0 +1,8 @@
+prefix=/workspace/stereo_synthPOC/install
+
+Name: mur_stereo_acq_right
+Description: Description of mur_stereo_acq_right
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

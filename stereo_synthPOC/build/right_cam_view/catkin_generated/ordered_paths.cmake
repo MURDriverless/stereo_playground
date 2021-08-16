@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib;/opt/ros/melodic/lib")

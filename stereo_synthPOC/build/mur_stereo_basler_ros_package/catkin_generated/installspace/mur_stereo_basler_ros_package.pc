@@ -1,0 +1,8 @@
+prefix=/workspace/stereo_synthPOC/install
+
+Name: mur_stereo_basler_ros_package
+Description: Description of mur_stereo_basler_ros_package
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

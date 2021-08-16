@@ -1,0 +1,1 @@
+/workspace/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup/lib/pkgconfig/mur_stereo_rosbag_matchup.pc

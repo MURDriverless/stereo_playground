@@ -1,0 +1,1 @@
+/workspace/stereo_synthPOC/devel/.private/mur_image_rosbag_replay/share/mur_image_rosbag_replay/cmake/mur_image_rosbag_replayConfig.cmake

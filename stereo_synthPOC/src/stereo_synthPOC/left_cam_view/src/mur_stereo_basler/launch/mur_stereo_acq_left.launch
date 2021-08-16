@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="left_cam_view" type="left_cam_view" name="left_cam_view" output="screen"/>
+</launch>

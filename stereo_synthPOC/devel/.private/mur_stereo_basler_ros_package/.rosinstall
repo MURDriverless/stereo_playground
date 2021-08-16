@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /workspace/stereo_synthPOC/devel/.private/mur_stereo_basler_ros_package/setup.sh
