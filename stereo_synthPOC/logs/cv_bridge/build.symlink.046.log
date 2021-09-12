@@ -20,10 +20,18 @@ Cleaning: (/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/python2.7/dis
 Cleaning: (/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so, /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so)
 Cleaning: (/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/pkgconfig/cv_bridge.pc, /workspace/stereo_synthPOC/devel/lib/pkgconfig/cv_bridge.pc)
 Unlinking: /workspace/stereo_synthPOC/devel/share/cv_bridge/cmake/cv_bridge-extras.cmake
+Already unlinked: {}
 Unlinking: /workspace/stereo_synthPOC/devel/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+Already unlinked: {}
 Unlinking: /workspace/stereo_synthPOC/devel/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+Already unlinked: {}
 Unlinking: /workspace/stereo_synthPOC/devel/lib/libcv_bridge.so
+Already unlinked: {}
 Unlinking: /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/cv_bridge/__init__.py
+Already unlinked: {}
 Unlinking: /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/cv_bridge/boost/__init__.py
+Already unlinked: {}
 Unlinking: /workspace/stereo_synthPOC/devel/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so
+Already unlinked: {}
 Unlinking: /workspace/stereo_synthPOC/devel/lib/pkgconfig/cv_bridge.pc
+Already unlinked: {}

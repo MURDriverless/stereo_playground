@@ -116,14 +116,14 @@ void callback(const ImageConstPtr& image1, const ImageConstPtr& image2)
     cv::cvtColor(cv_ptr_right->image, right_dst, cv::COLOR_BGR2RGB); 
 
     char image_name_left[256];
-    std::sprintf(image_name_left,"CameraLeft%04d_L.png", std::stoi(cv_ptr_left->header.frame_id));
+    std::sprintf(image_name_left,"/mnt/SSD/CameraLeft%04d_L.png", std::stoi(cv_ptr_left->header.frame_id));
     cv::imwrite(image_name_left, left_dst);
 
     std::cout << "Time stamp (Left) is: " << cv_ptr_left->header.stamp.toSec() << std::endl;
     std::cout << "frame id (Left) is: " << cv_ptr_left->header.frame_id << std::endl; 
 
     char image_name_right[256];
-    std::sprintf(image_name_right,"CameraRight%04d_R.png", std::stoi(cv_ptr_right->header.frame_id));
+    std::sprintf(image_name_right,"/mnt/SSD/CameraRight%04d_R.png", std::stoi(cv_ptr_right->header.frame_id));
     cv::imwrite(image_name_right, right_dst);
 
     std::cout << "Time stamp (Right) is: " << cv_ptr_right->header.stamp.toSec() << std::endl;

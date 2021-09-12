@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target mur_stereo_acq_right[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/mur_stereo_acq_right.dir/src/GeniWrap.cpp.o[0m
-[ 66%] [32m[1mLinking CXX executable /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_acq_right/lib/mur_stereo_acq_right/mur_stereo_acq_right[0m
-[100%] Built target mur_stereo_acq_right

@@ -139,7 +139,7 @@ int main(int argc, char** argv) {
 
           sensor_msgs::Image left_img_msg;
 
-          std::cout << "Camera Left Frame Rate is: " << camera1->getFrameRate() << ", Exposure Time is: " << camera1->getExposureTime() << std::endl;
+          std::cout << "Camera Left Frame Rate is: " << camera1->getFrameRate() << std::endl; // << ", Exposure Time is: " << camera1->getExposureTime() << std::endl;
           
           if (ret1) {
             cv_bridge::CvImage myCvImage; 

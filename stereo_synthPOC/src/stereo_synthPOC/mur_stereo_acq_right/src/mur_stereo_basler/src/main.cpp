@@ -119,7 +119,8 @@ int main(int argc, char** argv) {
 
           bool ret1 = camera1->retreiveResult(height1, width1, buffer1);
 
-          std::cout << "Camera RightFrame Rate is: " << camera1->getFrameRate() << std::endl; // ", Exposure Time is: " << camera1->getExposureTime(camera1->getNodeMap()) << std::endl;
+          std::cout << "Camera RightFrame Rate is: " << camera1->getFrameRate() << std::endl; 
+          // ", Exposure Time is: " << camera1->getExposureTime(camera1->getNodeMap()) << std::endl;
           
           ros::Time camera1_time = ros::Time::now();
 

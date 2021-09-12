@@ -1,4 +1,1 @@
-[35m[1mScanning dependencies of target mur_stereo_ros_node[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/mur_stereo_ros_node.dir/src/mur_stereo_ros_node.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_ros/lib/mur_stereo_ros/mur_stereo_ros_node[0m
 [100%] Built target mur_stereo_ros_node
