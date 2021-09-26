@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target mur_image_rosbag_matchup[0m
-[35m[1mScanning dependencies of target Disparity[0m
-[ 20%] [32mBuilding CXX object CMakeFiles/Disparity.dir/src/disparity_filtering.cpp.o[0m
-[ 40%] [32mBuilding CXX object CMakeFiles/mur_image_rosbag_matchup.dir/src/main.cpp.o[0m
-[ 60%] [32mBuilding CXX object CMakeFiles/mur_image_rosbag_matchup.dir/src/GeniWrap.cpp.o[0m
-[ 80%] [32m[1mLinking CXX executable /workspace/stereo_synthPOC/devel/.private/mur_image_rosbag_matchup/lib/mur_image_rosbag_matchup/Disparity[0m
-[ 80%] Built target Disparity
-[100%] [32m[1mLinking CXX executable /workspace/stereo_synthPOC/devel/.private/mur_image_rosbag_matchup/lib/mur_image_rosbag_matchup/mur_image_rosbag_matchup[0m
-[100%] Built target mur_image_rosbag_matchup

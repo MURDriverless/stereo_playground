@@ -154,7 +154,6 @@ CMakeFiles/right_cam_view.dir/src/GeniWrap.cpp.o: /workspace/stereo_playground/s
 CMakeFiles/right_cam_view.dir/src/GeniWrap.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/right_cam_view/src/mur_stereo_basler/includes/GeniWrap.hpp
 CMakeFiles/right_cam_view.dir/src/GeniWrap.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/right_cam_view/src/mur_stereo_basler/src/GeniWrap.cpp
 
-CMakeFiles/right_cam_view.dir/src/main.cpp.o: /opt/ros/melodic/include/cv_bridge/cv_bridge.h
 CMakeFiles/right_cam_view.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Point.h
 CMakeFiles/right_cam_view.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Pose.h
 CMakeFiles/right_cam_view.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Quaternion.h
@@ -247,6 +246,7 @@ CMakeFiles/right_cam_view.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2
 CMakeFiles/right_cam_view.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/cudawarping.hpp
 CMakeFiles/right_cam_view.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/xfeatures2d.hpp
 CMakeFiles/right_cam_view.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
+CMakeFiles/right_cam_view.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/cv_bridge.h
 CMakeFiles/right_cam_view.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/right_cam_view/src/mur_stereo_basler/includes/Classical/ClassicalStereo.hpp
 CMakeFiles/right_cam_view.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/right_cam_view/src/mur_stereo_basler/includes/Detectors/Detectors.hpp
 CMakeFiles/right_cam_view.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/right_cam_view/src/mur_stereo_basler/includes/Detectors/EntropyCalibrator.hpp

@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/mur_image_rosbag_replay/lib/pkgconfig/mur_image_rosbag_replay.pc
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_image_rosbag_replay/lib/pkgconfig/mur_image_rosbag_replay.pc

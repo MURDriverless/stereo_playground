@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/mur_common/lib/python2.7/dist-packages/mur_common/msg/_diagnostic_msg.py
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/lib/python2.7/dist-packages/mur_common/msg/_diagnostic_msg.py

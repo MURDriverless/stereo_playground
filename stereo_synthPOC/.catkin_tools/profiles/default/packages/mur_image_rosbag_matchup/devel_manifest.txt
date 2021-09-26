@@ -1,7 +1,0 @@
-stereo_synthPOC/mur_stereo_rosbag_matchup/src/mur_stereo_basler
-/workspace/stereo_synthPOC/devel/.private/mur_image_rosbag_matchup/cmake.lock /workspace/stereo_synthPOC/devel/./cmake.lock
-/workspace/stereo_synthPOC/devel/.private/mur_image_rosbag_matchup/share/mur_image_rosbag_matchup/cmake/mur_image_rosbag_matchupConfig.cmake /workspace/stereo_synthPOC/devel/share/mur_image_rosbag_matchup/cmake/mur_image_rosbag_matchupConfig.cmake
-/workspace/stereo_synthPOC/devel/.private/mur_image_rosbag_matchup/share/mur_image_rosbag_matchup/cmake/mur_image_rosbag_matchupConfig-version.cmake /workspace/stereo_synthPOC/devel/share/mur_image_rosbag_matchup/cmake/mur_image_rosbag_matchupConfig-version.cmake
-/workspace/stereo_synthPOC/devel/.private/mur_image_rosbag_matchup/lib/mur_image_rosbag_matchup/mur_image_rosbag_matchup /workspace/stereo_synthPOC/devel/lib/mur_image_rosbag_matchup/mur_image_rosbag_matchup
-/workspace/stereo_synthPOC/devel/.private/mur_image_rosbag_matchup/lib/mur_image_rosbag_matchup/Disparity /workspace/stereo_synthPOC/devel/lib/mur_image_rosbag_matchup/Disparity
-/workspace/stereo_synthPOC/devel/.private/mur_image_rosbag_matchup/lib/pkgconfig/mur_image_rosbag_matchup.pc /workspace/stereo_synthPOC/devel/lib/pkgconfig/mur_image_rosbag_matchup.pc

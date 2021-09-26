@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target mur_left_image_acq[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/mur_left_image_acq.dir/src/main.cpp.o[0m
-[ 66%] [32m[1mLinking CXX executable /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_left_image_acq/lib/mur_left_image_acq/mur_left_image_acq[0m
-[100%] Built target mur_left_image_acq

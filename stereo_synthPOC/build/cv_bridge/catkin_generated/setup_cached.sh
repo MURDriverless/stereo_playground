@@ -13,4 +13,4 @@ export PKG_CONFIG_PATH="/workspace/stereo_playground/stereo_synthPOC/devel/.priv
 export PWD='/workspace/stereo_playground/stereo_synthPOC/build/cv_bridge'
 export PYTHONPATH="/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge:/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge:$ROS_PACKAGE_PATH"

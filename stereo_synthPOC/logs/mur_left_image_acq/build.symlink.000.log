@@ -1,0 +1,4 @@
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_left_image_acq/cmake/mur_left_image_acqConfig.cmake
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_left_image_acq/cmake/mur_left_image_acqConfig-version.cmake
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/lib/mur_left_image_acq/mur_left_image_acq
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/lib/pkgconfig/mur_left_image_acq.pc

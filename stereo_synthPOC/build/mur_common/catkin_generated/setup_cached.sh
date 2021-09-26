@@ -8,9 +8,6 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/workspace/stereo_playground/stereo_synthPOC/build/mur_common'
-export PYTHONPATH="/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_common:/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_common:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_common:$ROS_PACKAGE_PATH"

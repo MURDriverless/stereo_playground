@@ -154,7 +154,6 @@ CMakeFiles/mur_image_rosbag_replay.dir/src/GeniWrap.cpp.o: /workspace/stereo_pla
 CMakeFiles/mur_image_rosbag_replay.dir/src/GeniWrap.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_replay_left/src/mur_stereo_basler/includes/GeniWrap.hpp
 CMakeFiles/mur_image_rosbag_replay.dir/src/GeniWrap.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_replay_left/src/mur_stereo_basler/src/GeniWrap.cpp
 
-CMakeFiles/mur_image_rosbag_replay.dir/src/main.cpp.o: /opt/ros/melodic/include/cv_bridge/cv_bridge.h
 CMakeFiles/mur_image_rosbag_replay.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Point.h
 CMakeFiles/mur_image_rosbag_replay.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Pose.h
 CMakeFiles/mur_image_rosbag_replay.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Quaternion.h
@@ -247,6 +246,7 @@ CMakeFiles/mur_image_rosbag_replay.dir/src/main.cpp.o: /usr/local/include/opencv
 CMakeFiles/mur_image_rosbag_replay.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/cudawarping.hpp
 CMakeFiles/mur_image_rosbag_replay.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/xfeatures2d.hpp
 CMakeFiles/mur_image_rosbag_replay.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
+CMakeFiles/mur_image_rosbag_replay.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/cv_bridge.h
 CMakeFiles/mur_image_rosbag_replay.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_replay_left/src/mur_stereo_basler/includes/Classical/ClassicalStereo.hpp
 CMakeFiles/mur_image_rosbag_replay.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_replay_left/src/mur_stereo_basler/includes/Detectors/Detectors.hpp
 CMakeFiles/mur_image_rosbag_replay.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_replay_left/src/mur_stereo_basler/includes/Detectors/EntropyCalibrator.hpp

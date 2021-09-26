@@ -1,0 +1,4 @@
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_stereo_pipeline/cmake/mur_stereo_pipelineConfig.cmake
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_stereo_pipeline/cmake/mur_stereo_pipelineConfig-version.cmake
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/lib/libmur_stereo_pipeline.so
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/lib/pkgconfig/mur_stereo_pipeline.pc

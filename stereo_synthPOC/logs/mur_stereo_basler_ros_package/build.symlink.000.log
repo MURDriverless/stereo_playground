@@ -1,0 +1,4 @@
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_stereo_basler_ros_package/cmake/mur_stereo_basler_ros_packageConfig.cmake
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_stereo_basler_ros_package/cmake/mur_stereo_basler_ros_packageConfig-version.cmake
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/lib/mur_stereo_basler_ros_package/mur_stereo_basler_ros_package
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/lib/pkgconfig/mur_stereo_basler_ros_package.pc

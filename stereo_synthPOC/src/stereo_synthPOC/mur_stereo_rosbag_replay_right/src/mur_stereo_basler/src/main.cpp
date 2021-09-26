@@ -82,7 +82,7 @@ public:
     // cv::waitKey(100);
 
     char image_name[256];
-    std::sprintf(image_name,"Cameraright%04d_L.png", std::stoi(cv_ptr->header.frame_id));
+    std::sprintf(image_name,"KelvinCameraRight%04d_L.png", std::stoi(cv_ptr->header.frame_id));
     cv::imwrite(image_name, dst);
 
     std::cout << "Time stamp is: " << cv_ptr->header.stamp << std::endl;

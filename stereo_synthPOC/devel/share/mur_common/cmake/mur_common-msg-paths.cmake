@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/mur_common/share/mur_common/cmake/mur_common-msg-paths.cmake
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/share/mur_common/cmake/mur_common-msg-paths.cmake

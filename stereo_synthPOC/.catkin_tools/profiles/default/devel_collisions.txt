@@ -16,6 +16,7 @@
 /workspace/stereo_playground/stereo_synthPOC/devel/lib/libmur_stereo_pipeline.so 2
 /workspace/stereo_playground/stereo_synthPOC/devel/lib/mur_image_rosbag_replay/mur_image_rosbag_replay 2
 /workspace/stereo_synthPOC/devel/./cmake.lock 546
+/workspace/Downloads/mur_stereo/stereo_playground/stereo_synthPOC/devel/./cmake.lock 91
 /workspace/stereo_playground/stereo_synthPOC/devel/lib/python2.7/dist-packages/mur_common/msg/_diagnostic_msg.py 2
 /workspace/stereo_playground/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package_timing_msg.lisp 2
 /workspace/stereo_playground/stereo_synthPOC/devel/share/roseus/ros/mur_common/msg/timing_msg.l 2
@@ -55,7 +56,7 @@
 /workspace/stereo_playground/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/path_msg.lisp 2
 /workspace/stereo_playground/stereo_synthPOC/devel/lib/mur_stereo_acq_right/mur_stereo_acq_right 2
 /workspace/stereo_playground/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package_actuation_msg.lisp 2
-/workspace/stereo_playground/stereo_synthPOC/devel/./cmake.lock 26
+/workspace/stereo_playground/stereo_synthPOC/devel/./cmake.lock 117
 /workspace/stereo_playground/stereo_synthPOC/devel/share/common-lisp/ros/mur_common/msg/_package_cone_msg.lisp 2
 /workspace/stereo_playground/stereo_synthPOC/devel/share/right_cam_view/cmake/right_cam_viewConfig.cmake 2
 /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_stereo_pipeline/cmake/mur_stereo_pipelineConfig-version.cmake 2

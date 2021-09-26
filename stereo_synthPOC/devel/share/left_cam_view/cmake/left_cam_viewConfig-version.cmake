@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/left_cam_view/share/left_cam_view/cmake/left_cam_viewConfig-version.cmake
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/left_cam_view/share/left_cam_view/cmake/left_cam_viewConfig-version.cmake

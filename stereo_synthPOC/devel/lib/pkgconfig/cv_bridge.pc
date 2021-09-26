@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/pkgconfig/cv_bridge.pc
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/pkgconfig/cv_bridge.pc

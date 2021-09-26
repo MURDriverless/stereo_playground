@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/cone_msg.lisp
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/share/common-lisp/ros/mur_common/msg/cone_msg.lisp

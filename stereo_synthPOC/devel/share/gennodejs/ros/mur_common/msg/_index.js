@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/mur_common/share/gennodejs/ros/mur_common/msg/_index.js
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/share/gennodejs/ros/mur_common/msg/_index.js

@@ -154,7 +154,6 @@ CMakeFiles/mur_left_image_acq.dir/src/GeniWrap.cpp.o: /workspace/stereo_playgrou
 CMakeFiles/mur_left_image_acq.dir/src/GeniWrap.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/src/mur_stereo_basler/includes/GeniWrap.hpp
 CMakeFiles/mur_left_image_acq.dir/src/GeniWrap.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/src/mur_stereo_basler/src/GeniWrap.cpp
 
-CMakeFiles/mur_left_image_acq.dir/src/main.cpp.o: /opt/ros/melodic/include/cv_bridge/cv_bridge.h
 CMakeFiles/mur_left_image_acq.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Point.h
 CMakeFiles/mur_left_image_acq.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Pose.h
 CMakeFiles/mur_left_image_acq.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Quaternion.h
@@ -391,4 +390,5 @@ CMakeFiles/mur_left_image_acq.dir/src/main.cpp.o: /workspace/stereo_playground/s
 CMakeFiles/mur_left_image_acq.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/src/mur_stereo_basler/includes/opencv2/viz/vizcore.hpp
 CMakeFiles/mur_left_image_acq.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/src/mur_stereo_basler/includes/opencv2/viz/widgets.hpp
 CMakeFiles/mur_left_image_acq.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_left/src/mur_stereo_basler/src/main.cpp
+CMakeFiles/mur_left_image_acq.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/cv_bridge.h
 

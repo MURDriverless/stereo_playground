@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/mur_common/include/mur_common/path_msg.h
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/include/mur_common/path_msg.h

@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/mur_common/lib/python2.7/dist-packages/mur_common/__init__.py
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/lib/python2.7/dist-packages/mur_common/__init__.py

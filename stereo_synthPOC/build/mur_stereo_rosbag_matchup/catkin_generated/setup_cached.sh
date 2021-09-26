@@ -8,8 +8,6 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/workspace/stereo_playground/stereo_synthPOC/build/mur_stereo_rosbag_matchup'
 export ROSLISP_PACKAGE_DIRECTORIES="/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_rosbag_matchup/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_matchup/src/mur_stereo_basler:/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_matchup/src/mur_stereo_basler:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="/workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_rosbag_matchup/src/mur_stereo_basler:$ROS_PACKAGE_PATH"

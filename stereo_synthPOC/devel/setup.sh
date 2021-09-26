@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/catkin_tools_prebuild/setup.sh
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/catkin_tools_prebuild/setup.sh

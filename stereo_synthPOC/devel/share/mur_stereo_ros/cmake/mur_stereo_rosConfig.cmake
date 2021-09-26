@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/mur_stereo_ros/share/mur_stereo_ros/cmake/mur_stereo_rosConfig.cmake
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_ros/share/mur_stereo_ros/cmake/mur_stereo_rosConfig.cmake

@@ -1,1 +1,0 @@
-/workspace/stereo_synthPOC/devel/.private/mur_right_image_acq/share/mur_right_image_acq/cmake/mur_right_image_acqConfig-version.cmake

@@ -1,0 +1,4 @@
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_stereo_ros/cmake/mur_stereo_rosConfig-version.cmake
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_stereo_ros/cmake/mur_stereo_rosConfig.cmake
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/lib/mur_stereo_ros/mur_stereo_ros_node
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/lib/pkgconfig/mur_stereo_ros.pc

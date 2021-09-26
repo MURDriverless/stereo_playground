@@ -154,7 +154,6 @@ CMakeFiles/left_cam_view.dir/src/GeniWrap.cpp.o: /workspace/stereo_playground/st
 CMakeFiles/left_cam_view.dir/src/GeniWrap.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/includes/GeniWrap.hpp
 CMakeFiles/left_cam_view.dir/src/GeniWrap.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/src/GeniWrap.cpp
 
-CMakeFiles/left_cam_view.dir/src/main.cpp.o: /opt/ros/melodic/include/cv_bridge/cv_bridge.h
 CMakeFiles/left_cam_view.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Point.h
 CMakeFiles/left_cam_view.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Pose.h
 CMakeFiles/left_cam_view.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Quaternion.h
@@ -391,4 +390,5 @@ CMakeFiles/left_cam_view.dir/src/main.cpp.o: /workspace/stereo_playground/stereo
 CMakeFiles/left_cam_view.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/includes/opencv2/viz/vizcore.hpp
 CMakeFiles/left_cam_view.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/includes/opencv2/viz/widgets.hpp
 CMakeFiles/left_cam_view.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/left_cam_view/src/mur_stereo_basler/src/main.cpp
+CMakeFiles/left_cam_view.dir/src/main.cpp.o: /workspace/stereo_playground/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/cv_bridge/include/cv_bridge/cv_bridge.h
 

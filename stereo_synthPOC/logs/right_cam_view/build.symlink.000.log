@@ -1,0 +1,4 @@
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/share/right_cam_view/cmake/right_cam_viewConfig.cmake
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/share/right_cam_view/cmake/right_cam_viewConfig-version.cmake
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/lib/right_cam_view/right_cam_view
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/lib/pkgconfig/right_cam_view.pc

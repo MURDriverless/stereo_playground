@@ -1,8 +1,0 @@
-prefix=/workspace/stereo_synthPOC/devel/.private/mur_right_image_acq
-
-Name: mur_right_image_acq
-Description: Description of mur_right_image_acq
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake

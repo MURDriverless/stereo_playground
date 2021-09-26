@@ -113,7 +113,7 @@ right_cam_view_EXTERNAL_OBJECTS =
 /workspace/stereo_playground/stereo_synthPOC/devel/.private/right_cam_view/lib/right_cam_view/right_cam_view: CMakeFiles/right_cam_view.dir/src/main.cpp.o
 /workspace/stereo_playground/stereo_synthPOC/devel/.private/right_cam_view/lib/right_cam_view/right_cam_view: CMakeFiles/right_cam_view.dir/src/GeniWrap.cpp.o
 /workspace/stereo_playground/stereo_synthPOC/devel/.private/right_cam_view/lib/right_cam_view/right_cam_view: CMakeFiles/right_cam_view.dir/build.make
-/workspace/stereo_playground/stereo_synthPOC/devel/.private/right_cam_view/lib/right_cam_view/right_cam_view: /workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/libcv_bridge.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/right_cam_view/lib/right_cam_view/right_cam_view: /workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/libcv_bridge.so
 /workspace/stereo_playground/stereo_synthPOC/devel/.private/right_cam_view/lib/right_cam_view/right_cam_view: /usr/local/lib/libopencv_core.so.4.1.1
 /workspace/stereo_playground/stereo_synthPOC/devel/.private/right_cam_view/lib/right_cam_view/right_cam_view: /usr/local/lib/libopencv_imgproc.so.4.1.1
 /workspace/stereo_playground/stereo_synthPOC/devel/.private/right_cam_view/lib/right_cam_view/right_cam_view: /usr/local/lib/libopencv_imgcodecs.so.4.1.1

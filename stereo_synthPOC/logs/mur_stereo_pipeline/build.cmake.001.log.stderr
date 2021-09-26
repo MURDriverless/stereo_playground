@@ -1,7 +1,0 @@
-[33m[1mCMake Warning[0m at /workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_pipeline/CMakeLists.txt:5 (message):
-  OpenCV not included in parent CMake project
-
-
-[36m--[0m Found tkDNN
-[36m--[0m Found CUDNN: /usr/lib/x86_64-linux-gnu/libcudnn.so
-[36m--[0m Found NVINFER: /usr/lib/x86_64-linux-gnu/libnvinfer.so

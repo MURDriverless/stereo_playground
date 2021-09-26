@@ -1,1 +1,0 @@
-/workspace/stereo_synthPOC/devel/.private/mur_image_rosbag_matchup/share/mur_image_rosbag_matchup/cmake/mur_image_rosbag_matchupConfig.cmake

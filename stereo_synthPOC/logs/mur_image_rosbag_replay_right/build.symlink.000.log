@@ -1,0 +1,4 @@
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_image_rosbag_replay_right/cmake/mur_image_rosbag_replay_rightConfig-version.cmake
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/share/mur_image_rosbag_replay_right/cmake/mur_image_rosbag_replay_rightConfig.cmake
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/lib/mur_image_rosbag_replay_right/mur_image_rosbag_replay_right
+Symlinking /workspace/stereo_playground/stereo_synthPOC/devel/lib/pkgconfig/mur_image_rosbag_replay_right.pc

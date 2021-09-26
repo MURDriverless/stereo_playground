@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/mur_common/share/roseus/ros/mur_common/manifest.l
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/share/roseus/ros/mur_common/manifest.l

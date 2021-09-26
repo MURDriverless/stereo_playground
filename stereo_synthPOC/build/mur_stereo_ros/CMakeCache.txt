@@ -434,7 +434,7 @@ RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
 //Name of the computer/site where compile is being run
-SITE:STRING=ae027fb08578
+SITE:STRING=4c4d33a15384
 
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
@@ -522,7 +522,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 image_transport_DIR:PATH=/opt/ros/melodic/share/image_transport/cmake
 
 //Path to a library.
-lib:FILEPATH=/workspace/stereo_synthPOC/devel/.private/mur_stereo_pipeline/lib/libmur_stereo_pipeline.so
+lib:FILEPATH=/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_pipeline/lib/libmur_stereo_pipeline.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake

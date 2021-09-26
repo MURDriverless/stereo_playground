@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target left_cam_view[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/left_cam_view.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/left_cam_view.dir/src/GeniWrap.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /workspace/stereo_playground/stereo_synthPOC/devel/.private/left_cam_view/lib/left_cam_view/left_cam_view[0m
+[100%] Built target left_cam_view

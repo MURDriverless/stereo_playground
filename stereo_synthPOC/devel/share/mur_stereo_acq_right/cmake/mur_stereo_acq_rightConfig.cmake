@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/mur_stereo_acq_right/share/mur_stereo_acq_right/cmake/mur_stereo_acq_rightConfig.cmake
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_stereo_acq_right/share/mur_stereo_acq_right/cmake/mur_stereo_acq_rightConfig.cmake

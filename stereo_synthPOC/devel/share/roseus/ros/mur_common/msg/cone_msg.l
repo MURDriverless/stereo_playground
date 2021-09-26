@@ -1,1 +1,1 @@
-/workspace/stereo_synthPOC/devel/.private/mur_common/share/roseus/ros/mur_common/msg/cone_msg.l
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_common/share/roseus/ros/mur_common/msg/cone_msg.l

@@ -113,7 +113,7 @@ mur_left_image_acq_EXTERNAL_OBJECTS =
 /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_left_image_acq/lib/mur_left_image_acq/mur_left_image_acq: CMakeFiles/mur_left_image_acq.dir/src/main.cpp.o
 /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_left_image_acq/lib/mur_left_image_acq/mur_left_image_acq: CMakeFiles/mur_left_image_acq.dir/src/GeniWrap.cpp.o
 /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_left_image_acq/lib/mur_left_image_acq/mur_left_image_acq: CMakeFiles/mur_left_image_acq.dir/build.make
-/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_left_image_acq/lib/mur_left_image_acq/mur_left_image_acq: /workspace/stereo_synthPOC/devel/.private/cv_bridge/lib/libcv_bridge.so
+/workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_left_image_acq/lib/mur_left_image_acq/mur_left_image_acq: /workspace/stereo_playground/stereo_synthPOC/devel/.private/cv_bridge/lib/libcv_bridge.so
 /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_left_image_acq/lib/mur_left_image_acq/mur_left_image_acq: /usr/local/lib/libopencv_core.so.4.1.1
 /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_left_image_acq/lib/mur_left_image_acq/mur_left_image_acq: /usr/local/lib/libopencv_imgproc.so.4.1.1
 /workspace/stereo_playground/stereo_synthPOC/devel/.private/mur_left_image_acq/lib/mur_left_image_acq/mur_left_image_acq: /usr/local/lib/libopencv_imgcodecs.so.4.1.1

@@ -1,25 +1,25 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /workspace/stereo_playground/stereo_synthPOC/build/mur_common/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f9e49/fast && /usr/bin/make  -f CMakeFiles/cmTC_f9e49.dir/build.make CMakeFiles/cmTC_f9e49.dir/build
+Run Build Command(s):/usr/bin/make cmTC_20d83/fast && /usr/bin/make  -f CMakeFiles/cmTC_20d83.dir/build.make CMakeFiles/cmTC_20d83.dir/build
 make[1]: Entering directory '/workspace/stereo_playground/stereo_synthPOC/build/mur_common/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f9e49.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_f9e49.dir/src.c.o -c /workspace/stereo_playground/stereo_synthPOC/build/mur_common/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_f9e49
-/opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9e49.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD -rdynamic CMakeFiles/cmTC_f9e49.dir/src.c.o -o cmTC_f9e49 
-CMakeFiles/cmTC_f9e49.dir/src.c.o: In function `main':
+Building C object CMakeFiles/cmTC_20d83.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_20d83.dir/src.c.o -c /workspace/stereo_playground/stereo_synthPOC/build/mur_common/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_20d83
+/opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20d83.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD -rdynamic CMakeFiles/cmTC_20d83.dir/src.c.o -o cmTC_20d83 
+CMakeFiles/cmTC_20d83.dir/src.c.o: In function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
 src.c:(.text+0x4a): undefined reference to `pthread_detach'
 src.c:(.text+0x56): undefined reference to `pthread_cancel'
 src.c:(.text+0x67): undefined reference to `pthread_join'
 src.c:(.text+0x7b): undefined reference to `pthread_atfork'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_f9e49.dir/build.make:105: recipe for target 'cmTC_f9e49' failed
-make[1]: *** [cmTC_f9e49] Error 1
+CMakeFiles/cmTC_20d83.dir/build.make:105: recipe for target 'cmTC_20d83' failed
+make[1]: *** [cmTC_20d83] Error 1
 make[1]: Leaving directory '/workspace/stereo_playground/stereo_synthPOC/build/mur_common/CMakeFiles/CMakeTmp'
-Makefile:140: recipe for target 'cmTC_f9e49/fast' failed
-make: *** [cmTC_f9e49/fast] Error 2
+Makefile:140: recipe for target 'cmTC_20d83/fast' failed
+make: *** [cmTC_20d83/fast] Error 2
 
 
 Source file was:
@@ -46,20 +46,20 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /workspace/stereo_playground/stereo_synthPOC/build/mur_common/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5edab/fast && /usr/bin/make  -f CMakeFiles/cmTC_5edab.dir/build.make CMakeFiles/cmTC_5edab.dir/build
+Run Build Command(s):/usr/bin/make cmTC_6821f/fast && /usr/bin/make  -f CMakeFiles/cmTC_6821f.dir/build.make CMakeFiles/cmTC_6821f.dir/build
 make[1]: Entering directory '/workspace/stereo_playground/stereo_synthPOC/build/mur_common/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5edab.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_5edab.dir/CheckFunctionExists.c.o -c /opt/cmake-3.18.2-Linux-x86_64/share/cmake-3.18/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5edab
-/opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5edab.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_5edab.dir/CheckFunctionExists.c.o -o cmTC_5edab  -lpthreads 
+Building C object CMakeFiles/cmTC_6821f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_6821f.dir/CheckFunctionExists.c.o -c /opt/cmake-3.18.2-Linux-x86_64/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6821f
+/opt/cmake-3.18.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6821f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_6821f.dir/CheckFunctionExists.c.o -o cmTC_6821f  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5edab.dir/build.make:105: recipe for target 'cmTC_5edab' failed
-make[1]: *** [cmTC_5edab] Error 1
+CMakeFiles/cmTC_6821f.dir/build.make:105: recipe for target 'cmTC_6821f' failed
+make[1]: *** [cmTC_6821f] Error 1
 make[1]: Leaving directory '/workspace/stereo_playground/stereo_synthPOC/build/mur_common/CMakeFiles/CMakeTmp'
-Makefile:140: recipe for target 'cmTC_5edab/fast' failed
-make: *** [cmTC_5edab/fast] Error 2
+Makefile:140: recipe for target 'cmTC_6821f/fast' failed
+make: *** [cmTC_6821f/fast] Error 2
 
 
 

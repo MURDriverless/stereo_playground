@@ -47,6 +47,66 @@ using namespace message_filters;
 
 static const std::string OPENCV_WINDOW = "right Image Window";
 
+void callback(const ImageConstPtr& image1, const ImageConstPtr& image2)
+{
+  cv_bridge::CvImagePtr cv_ptr_left;
+  cv_bridge::CvImagePtr cv_ptr_right;
+    
+    try {
+      cv_ptr_left = cv_bridge::toCvCopy(image1, sensor_msgs::image_encodings::BGR8);
+      cv_ptr_right = cv_bridge::toCvCopy(image2, sensor_msgs::image_encodings::BGR8);
+    }
+    catch (cv_bridge::Exception& e) {
+      ROS_ERROR("cv_bridge exception: %s", e.what());
+      return;
+    }
+
+    cv::Mat left_dst;
+    cv::Mat right_dst;
+    cv::cvtColor(cv_ptr_left->image, left_dst, cv::COLOR_BGR2RGB); 
+    cv::cvtColor(cv_ptr_right->image, right_dst, cv::COLOR_BGR2RGB); 
+
+    char image_name_left[256];
+    std::sprintf(image_name_left,"1m_CameraLeft%04d_L.png", std::stoi(cv_ptr_left->header.frame_id));
+    std::cout << image_name_left << std::endl;
+
+    cv::imwrite(image_name_left, left_dst);
+
+    std::cout << "Time stamp (Left) is: " << cv_ptr_left->header.stamp.toSec() << std::endl;
+    std::cout << "frame id (Left) is: " << cv_ptr_left->header.frame_id << std::endl; 
+
+    char image_name_right[256];
+    std::sprintf(image_name_right,"1m_CameraRight%04d_R.png", std::stoi(cv_ptr_right->header.frame_id));
+    int temp = cv::imwrite(image_name_right, right_dst);
+
+    std::cout << "temp is: " << temp << std::endl;
+
+    std::cout << "Time stamp (Right) is: " << cv_ptr_right->header.stamp.toSec() << std::endl;
+    std::cout << "frame id (Right) is: " << cv_ptr_right->header.frame_id << std::endl; 
+
+}
+
+int main(int argc, char** argv) {
+    ros::init(argc, argv, "Reading_Rosbags");
+    // ImageConverter ic; 
+
+    ros::NodeHandle nh;
+    message_filters::Subscriber<Image> image1_sub(nh, "/imagePublisher/left_image", 1);
+    message_filters::Subscriber<Image> image2_sub(nh, "/imagePublisher/right_image", 1);
+
+    typedef sync_policies::ApproximateTime<Image, Image> MySyncPolicy;
+    // ApproximateTime takes a queue size as its constructor argument, hence MySyncPolicy(10)
+    Synchronizer<MySyncPolicy> sync(MySyncPolicy(10), image1_sub, image2_sub);
+    sync.registerCallback(boost::bind(&callback, _1, _2));
+
+    ros::spin();
+
+    int exitCode = 0;
+    return exitCode;
+}
+
+// static const std::string OPENCV_WINDOW = "right Image Window";
+
 // class ImageConverter {
 //   ros::NodeHandle nh_;
 //   image_transport::ImageTransport it_;
@@ -79,16 +139,17 @@ static const std::string OPENCV_WINDOW = "right Image Window";
 //       return;
 //     }
 
-//     cv::Mat left_dst;
-//     cv::cvtColor(cv_ptr->image, left_dst, cv::COLOR_BGR2RGB); 
+//     cv::Mat dst;
+//     cv::cvtColor(cv_ptr->image, dst, cv::COLOR_BGR2RGB); 
     
 //     // Update GUI Window
-//     // cv::imshow(OPENCV_WINDOW, left_dst);
-//     // cv::waitKey(100);
+//     cv::imshow(OPENCV_WINDOW, dst);
+//     cv::waitKey(100);
 
 //     char image_name[256];
-//     std::sprintf(image_name,"Cameraright%04d_L.png", std::stoi(cv_ptr->header.frame_id));
-//     cv::imwrite(image_name, left_dst);
+//     std::sprintf(image_name,"KelvinCameraRight%04d_L.bmp", std::stoi(cv_ptr->header.frame_id));
+//     int temp = cv::imwrite(image_name, dst);
+//     std::cout << "temp is: " << temp << std::endl;
 
 //     std::cout << "Time stamp is: " << cv_ptr->header.stamp << std::endl;
 //     std::cout << "frame id is: " << cv_ptr->header.frame_id << std::endl; 
@@ -96,57 +157,11 @@ static const std::string OPENCV_WINDOW = "right Image Window";
 //   }
 // };
 
-void callback(const ImageConstPtr& image1, const ImageConstPtr& image2)
-{
-  cv_bridge::CvImagePtr cv_ptr_left;
-  cv_bridge::CvImagePtr cv_ptr_right;
-    
-    try {
-      cv_ptr_left = cv_bridge::toCvCopy(image1, sensor_msgs::image_encodings::BGR8);
-      cv_ptr_right = cv_bridge::toCvCopy(image2, sensor_msgs::image_encodings::BGR8);
-    }
-    catch (cv_bridge::Exception& e) {
-      ROS_ERROR("cv_bridge exception: %s", e.what());
-      return;
-    }
+// int main(int argc, char** argv) {
+//     ros::init(argc, argv, "right_Image_rosbag_read");
+//     ImageConverter ic; 
+//     ros::spin();
 
-    cv::Mat left_dst;
-    cv::Mat right_dst;
-    cv::cvtColor(cv_ptr_left->image, left_dst, cv::COLOR_BGR2RGB); 
-    cv::cvtColor(cv_ptr_right->image, right_dst, cv::COLOR_BGR2RGB); 
-
-    char image_name_left[256];
-    std::sprintf(image_name_left,"/mnt/SSD/CameraLeft%04d_L.png", std::stoi(cv_ptr_left->header.frame_id));
-    cv::imwrite(image_name_left, left_dst);
-
-    std::cout << "Time stamp (Left) is: " << cv_ptr_left->header.stamp.toSec() << std::endl;
-    std::cout << "frame id (Left) is: " << cv_ptr_left->header.frame_id << std::endl; 
-
-    char image_name_right[256];
-    std::sprintf(image_name_right,"/mnt/SSD/CameraRight%04d_R.png", std::stoi(cv_ptr_right->header.frame_id));
-    cv::imwrite(image_name_right, right_dst);
-
-    std::cout << "Time stamp (Right) is: " << cv_ptr_right->header.stamp.toSec() << std::endl;
-    std::cout << "frame id (Right) is: " << cv_ptr_right->header.frame_id << std::endl; 
-
-}
-
-int main(int argc, char** argv) {
-    ros::init(argc, argv, "right_Image_rosbag_read");
-    // ImageConverter ic; 
-
-    ros::NodeHandle nh;
-    message_filters::Subscriber<Image> image1_sub(nh, "/imagePublisher/left_image", 1);
-    message_filters::Subscriber<Image> image2_sub(nh, "/imagePublisher/right_image", 1);
-
-    typedef sync_policies::ApproximateTime<Image, Image> MySyncPolicy;
-    // ApproximateTime takes a queue size as its constructor argument, hence MySyncPolicy(10)
-    Synchronizer<MySyncPolicy> sync(MySyncPolicy(10), image1_sub, image2_sub);
-    sync.registerCallback(boost::bind(&callback, _1, _2));
-
-    ros::spin();
-
-    int exitCode = 0;
-    return exitCode;
-}
-
+//     int exitCode = 0;
+//     return exitCode;
+// }

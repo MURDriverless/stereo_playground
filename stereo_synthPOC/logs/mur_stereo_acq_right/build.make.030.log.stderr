@@ -1,8 +1,0 @@
-In file included from [01m[K/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/src/GeniWrap.cpp:3:0[m[K:
-[01m[K/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/includes/GeniPylon.hpp:[m[K In member function '[01m[Kvirtual double PylonCam::getExposureTime()[m[K':
-[01m[K/workspace/stereo_synthPOC/src/stereo_synthPOC/mur_stereo_acq_right/src/mur_stereo_basler/includes/GeniPylon.hpp:113:43:[m[K [01;31m[Kerror: [m[K'[01m[Knodemap[m[K' was not declared in this scope
-             return Pylon::CFloatParameter([01;31m[Knodemap[m[K, "ExposureTime").GetValue();
-                                           [01;31m[K^~~~~~~[m[K
-make[2]: *** [CMakeFiles/mur_stereo_acq_right.dir/src/GeniWrap.cpp.o] Error 1
-make[1]: *** [CMakeFiles/mur_stereo_acq_right.dir/all] Error 2
-make: *** [all] Error 2
